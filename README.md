@@ -44,7 +44,7 @@ Eu começo essa primeira parte com:
 ## Terceira Parte
 
 Na terceira parte começo a Definir Funções que possam otimizar as aplicações mais complexas separando cada ação em Funções, para que na Quarta parte seja juntado todas etapas em um unico Script.
- - 3.1 - Criando Função - Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices
+ - 3.1 - Criando Função - Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices (Em Desenvolvimento)
 
 ## Junção 
 
