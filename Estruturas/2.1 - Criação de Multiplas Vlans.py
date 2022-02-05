@@ -33,7 +33,7 @@ E dependendo da Reposta digitada, o programa realizará uma determinada ação.
 
 user = 'cisco'
 userpass = 'cisco'
-ip = '192.168.10.10'
+ip = '192.168.10.10' #IP do Switch
 
 #Variavel criada para auxilio do Loop WHILE
 opcoes = 'S'
