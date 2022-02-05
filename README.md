@@ -47,7 +47,8 @@ Na terceira parte começo a Definir Funções que possam otimizar as aplicaçõe
 	- [3.1 - Criando Função - Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices]
 
 ## Junção 
-Essa etapa visa 
+
+** Ainda em criação **
 
 ## Autor
 
