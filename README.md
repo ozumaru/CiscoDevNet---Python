@@ -4,7 +4,7 @@ Comecei recentemente nesse mundo da programação para me auxiliar em como otimi
 
 Mas devido a precisão de criar formas de agilizar meu trabalho com Infra de redes, comecei a buscar formas de automatizar minhas ações a quase Clicks.
 
-Minha intenção aqui é ajudar com o meu breve conhecimento em Python, aqueles que também estão em busca de criar suas próprias soluções para atividades contidianas em Redes, e dessa forma também conseguirmos criar ferramentas para manusear dados de formas mais isolada, trabalhar com parques de Routers e Switchs utilizando simples scritps em Python para fazer uma coleta em mais de 1000 Switchs, ao em vez de acessar um-por-um e executar o mesmo comando repetidas vezes, o script fará todo o trabalho para você.
+Minha intenção aqui é ajudar com o meu breve conhecimento em Python, aqueles que também estão em busca de criar suas próprias soluções para atividades cotidianas em Redes, e dessa forma também conseguirmos criar ferramentas para manusear dados de formas mais isolada, trabalhar com parques de Routers e Switchs utilizando simples scritps em Python para fazer uma coleta em mais de 1000 Switchs, ao em vez de acessar um-por-um e executar o mesmo comando repetidas vezes, o script fará todo o trabalho para você.
 
 Tudo o que venho trazer aqui, é com base em pesquisas por pequenas necessidades... 
 
