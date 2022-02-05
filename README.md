@@ -23,11 +23,11 @@ Essa etapa visa mostrar parte por parte de como utilizar cada ação, recomendo 
 	
 Eu começo essa primeira parte com:
 - Criar e Ler um Arquivo, pois foi o que eu mais tive dificuldade de entender.
-- logo em seguida por 'Dia e hora' isso ira ajudar quando for pegar informação de coleta de informação do equipamento, e precisar criar arquivo diferente para o mesmo equipamento em horas ou dias diferete, fazendo um Backup da configuração do equipamento.
+- logo em seguida por 'Dia e hora', isso ira ajudar quando for coletar informação do equipamento, e precisar criar um arquivo diferente para o mesmo equipamento em horas ou dias diferentes, fazendo um Backup da configuração do equipamento.
 
 - Depois como localizar o nome do equipamento dentro de um 'Running-Config', para assim dar o nome ao arquivo posteriormente.
 
-- E enfim, como acessar os equipamento com a Biblioteca Netmiko por meio do protocolo SSH (Secure Shell).
+- E enfim, como acessar o equipamento com a Biblioteca Netmiko por meio do protocolo SSH (Secure Shell).
 	- [1.1 - Criando e Lendo um Arquivo](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.1%20-%20Criando%20e%20Lendo%20um%20Arquivo.py)
 	- [1.2 - Dia e Hora](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.2%20-%20Dia%20e%20Hora.py)
 	- [1.3 - IF e FOR - Localizar Hostname](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.3%20-%20IF%20e%20FOR%20-%20Localizar%20Hostname.py)
