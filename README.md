@@ -21,7 +21,7 @@ Essa etapa visa mostrar parte por parte de como utilizar cada ação, recomendo 
 
 ## Primeira Parte
 	
-Eu começo essa primeira parte em com:
+Eu começo essa primeira parte com:
 - Criar e Ler um Arquivo, pois foi o que eu mais tive dificuldade de entender.
 - logo em seguida por 'Dia e hora' isso ira ajudar quando for pegar informação de coleta de informação do equipamento, e precisar criar arquivo diferente para o mesmo equipamento em horas ou dias diferete, fazendo um Backup da configuração do equipamento.
 
@@ -36,15 +36,15 @@ Eu começo essa primeira parte em com:
 ## Segunda Parte
 
 A segunda parte já para aplicar comandos dentro equipamento, embora tenha uma visão um pouco mais complexa, quando aplicar fica mais compreensivel o que está acontecendo enquanto o programa roda, mas busquei detalhar o maximo possivel cada parte com comentários.
-	- [2.1 - Criação de Multiplas Vlans]
-	- [2.2 - Criação de interface Loopback]
-	- [2.3 - Configurando e Validando um P2P]
-	- [2.4 - Configurando Roteamento em Devices multiplos]
+	- 2.1 - Criação de Multiplas Vlans
+	- 2.2 - Criação de interface Loopback
+	- 2.3 - Configurando e Validando um P2P
+	- 2.4 - Configurando Roteamento em Devices multiplos
 
 ## Terceira Parte
 
 Na terceira parte começo a Definir Funções que possam otimizar as aplicações mais complexas separando cada ação em Funções, para que na Quarta parte seja juntado todas etapas em um unico Script.
-	- [3.1 - Criando Função - Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices]
+	- 3.1 - Criando Função - Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices
 
 ## Junção 
 
