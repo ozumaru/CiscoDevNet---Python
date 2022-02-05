@@ -44,8 +44,9 @@ boot-end-marker
 #Criado uma nova Variavel que ira receber a Variavel Texto Quebrada com base em cada Espaço que tem entre as palavras separando por Indices, essa é a função do .split().
 text = (texto).split()
 
-#
-''' Explicando o funcionamento do LOOP FOR e junção com a Condicional IF
+
+''' 
+Explicando o funcionamento do LOOP FOR e junção com a Condicional IF
 
 - Inicio do Loop FOR, é criado uma Variavel Contadora (x), é somente utilizada para contar cada indice, e a cada volta, ele se torna o Numero da posição de cada Indice com base no tamanho da Variavel Text.
 
