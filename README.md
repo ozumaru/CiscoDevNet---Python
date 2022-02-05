@@ -36,9 +36,9 @@ Eu começo essa primeira parte com:
 ## Segunda Parte
 
 - A segunda parte já para aplicar comandos dentro equipamento, embora tenha uma visão um pouco mais complexa, quando aplicar fica mais compreensivel o que está acontecendo enquanto o programa roda, mas busquei detalhar o maximo possivel cada parte com comentários.
-	[- 2.1 - Criação de Multiplas Vlans](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.1%20-%20Criação%20de%20Multiplas%20Vlans.py)
-	[- 2.2 - Criação de interface Loopback](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.2%20-%20Criação%20de%20interface%20Loopback.py)
-	[- 2.3 - Configurando e Validando um P2P](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.3%20-%20Configurando%20e%20Validando%20um%20P2P.py)
+	- [ 2.1 - Criação de Multiplas Vlans](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.1%20-%20Criação%20de%20Multiplas%20Vlans.py)
+	- [ 2.2 - Criação de interface Loopback](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.2%20-%20Criação%20de%20interface%20Loopback.py)
+	- [ 2.3 - Configurando e Validando um P2P](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.3%20-%20Configurando%20e%20Validando%20um%20P2P.py)
  - 2.4 - Configurando Roteamento em multiplos Devices (Em Desenvolvimento)
 
 ## Terceira Parte
