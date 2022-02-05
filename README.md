@@ -28,10 +28,10 @@ Eu começo essa primeira parte em com:
 - Depois como localizar o nome do equipamento dentro de um 'Running-Config', para assim dar o nome ao arquivo posteriormente.
 
 - E enfim, como acessar os equipamento com a Biblioteca Netmiko por meio do protocolo SSH (Secure Shell).
-	- [1.1 - Criando e Lendo um Arquivo] 
-	- [1.2 - Dia e Hora]
-	- [1.3 - IF e FOR - Localizar Hostname]
-	- [1.4 - SSH_Netmiko] 
+	- [1.1 - Criando e Lendo um Arquivo](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.1%20-%20Criando%20e%20Lendo%20um%20Arquivo.py)
+	- [1.2 - Dia e Hora](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.2%20-%20Dia%20e%20Hora.py)
+	- [1.3 - IF e FOR - Localizar Hostname](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.3%20-%20IF%20e%20FOR%20-%20Localizar%20Hostname.py)
+	- [1.4 - SSH_Netmiko](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.4%20-%20SSH_Netmiko.py) 
 
 ## Segunda Parte
 
