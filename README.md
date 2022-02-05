@@ -1,6 +1,6 @@
 Python para Network
 
-Comecei recentimente nesse mundo da programação, mas sabendo como podemos utilizar dessa ferramenta para criar mais Ferramentas para automação e agilizar multiplas Tarefas para qualquer coisa.
+Comecei recentemente nesse mundo da programação, mas sabendo como podemos utilizar dessa ferramenta para criar mais Ferramentas para automação e agilizar multiplas Tarefas para qualquer coisa.
 
 Mas agora, devido a precisão e criar formas de agilizar meu trabalho com Infra de redes, comecei a buscar formas de automatizar minhas ações a quase Clicks.
 
