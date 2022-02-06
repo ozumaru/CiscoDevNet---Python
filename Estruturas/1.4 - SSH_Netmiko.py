@@ -80,7 +80,7 @@ ssh.enable()
 #A Variavel Result, utilizando a variavel SSH com uma função de Enviar um 
 #Comando ao equipamento '.send_command()' e dentro da função o comando e modo 
 #String para que o equipamento entenda a solicitação.
-result = ssh.send_command('show ip interface bried')
+result = ssh.send_command('show ip interface brief')
 ssh.exit_enable_mode()
 
 
