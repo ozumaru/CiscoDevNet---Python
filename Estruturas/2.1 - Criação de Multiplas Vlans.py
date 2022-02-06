@@ -2,30 +2,42 @@
 from netmiko import ConnectHandler
 
 '''
-Essa programa tem como função Criar, Apagar e Mostrar Vlans dentro de um Equipamento de Camada 2 (Switch L2) ou um Equipamento que Opere com as Camadas 2 e 3 (Switch L3).
+Essa programa tem como função Criar, Apagar e Mostrar Vlans dentro de um 
+Equipamento de Camada 2 (Switch L2) ou um Equipamento que Opere com as 
+Camadas 2 e 3 (Switch L3).
 
-Devido o conteudo ter algumas funções, foi criado algumas Variaveis Interativa que aguarda o Usuario a digitar o que precisa ser feito.
+Devido o conteudo ter algumas funções, foi criado algumas Variaveis 
+Interativa que aguarda o Usuario a digitar o que precisa ser feito.
 
 E dependendo da Reposta digitada, o programa realizará uma determinada ação.
 
 1 - Criar Vlan
-    1.1 - Poderá ser feito a criação de somente 1 Vlan, Acima de 1 vlan (Ex: da 20 a 50) ou variando.
-    1.2 - A Ideia da Variação é, se for preciso criar 3 Vlans, mas precisa que ela seja variada de 5 em 5, quando colocado a primeira: 1 e a ultima 10, variando de 5 em 5, as vlans criadas serão 1, 5 e 10.
-    1.3 - E questionar se deseja continuar com ação das Vlans, se não, Operação Vlans ira encerrar.
+    1.1 - Poderá ser feito a criação de somente 1 Vlan, Acima de 1 vlan (Ex: da 20 a 50) 
+    ou variando.
+
+    1.2 - A Ideia da Variação é, se for preciso criar 3 Vlans, mas precisa que 
+    ela seja variada de 5 em 5, quando colocado a primeira: 1 e a ultima 10, variando 
+    de 5 em 5, as vlans criadas serão 1, 5 e 10.
+
+    1.3 - E questionar se deseja continuar com ação das Vlans, se não, Operação 
+    Vlans ira encerrar.
 
 2 - Deletar Vlan
     2.1 - Poderá ser deletado somente 1 Vlan, Acima de 1 vlan (Ex: da 20 a 50) ou variando.
     2.2 - A ideia de apagar de forma variada é a mesma da criação
-    2.3 - E questionar se deseja continuar com ação das Vlans, se não, Operação Vlans ira encerrar.
+    2.3 - E questionar se deseja continuar com ação das Vlans, se não, Operação 
+    Vlans ira encerrar.
 
 3 - Nomear Vlan
     3.1 - Ira solicitar um numero de uma Vlan e um Nome que será adicionado
     3.2 - Após executar ação, ira mostrar o resultado
-    3.3 - E questionar se deseja continuar com ação das Vlans, se não, Operação Vlans ira encerrar.
+    3.3 - E questionar se deseja continuar com ação das Vlans, se não, Operação
+    Vlans ira encerrar.
 
 4 - Verificar Vlans existente no equipamento
     4.1 - Ira  mostrar as Vlans existentes na caixa.
-    4.2 - E questionar se deseja continuar com ação das Vlans, se não, Operação Vlans ira encerrar.
+    4.2 - E questionar se deseja continuar com ação das Vlans, se não, Operação 
+    Vlans ira encerrar.
 
 5 - Sair 
     5.1 - Irá tornar a Variavel 'opcoes' vazia e encerrar Loop.

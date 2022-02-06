@@ -1,9 +1,12 @@
 #Contexto de Biblioteca explicado no Arquivo: 2 - SSH_Netmiko
 
 '''
-A Biblioteca Datetime tem como função usar o sistema para trazer a informação atual de Data e Hora.
+A Biblioteca Datetime tem como função usar o sistema para trazer a informação 
+atual de Data e Hora.
 
-Conforme mostra na Variavel é aplicado o 'datetime' e trazendo a inforação .TODAY (HOJE), dentro dessa forma de trazer essa informação o .STRFTIME auxilia em como manipular essa informação para que a Variavel a Receba.
+Conforme mostra na Variavel é aplicado o 'datetime' e trazendo a inforação .TODAY (HOJE), 
+dentro dessa forma de trazer essa informação o .STRFTIME auxilia em como manipular essa 
+informação para que a Variavel a Receba.
 
 d - day
 m - month

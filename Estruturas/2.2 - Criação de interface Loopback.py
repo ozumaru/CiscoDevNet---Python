@@ -10,7 +10,8 @@ Nessa atividade será realizado:
         - IP Valido
         - Mascara de Subrede
 
-Ao final o programa ira exibir Hostname do Device seguido do IP da Loopback Criada e a Descrição. 
+Ao final o programa ira exibir Hostname do Device seguido do IP da Loopback 
+Criada e a Descrição. 
 '''
 
 user = 'cisco'
@@ -41,12 +42,14 @@ nome = ssh.send_command('show running | include hostname')
 #Variavel 'nome' ira  receber variavel 'nome' em formado de lista
 nome = nome.split()
 
-#Lista 'confLoop' contem os comandos de Criar Loopback, add Description, e add IP Add com base nas posições do Indice da lista 'loopback'.
+#Lista 'confLoop' contem os comandos de Criar Loopback, add Description, e 
+#add IP Add com base nas posições do Indice da lista 'loopback'.
 confLoop = (f'interface loopback {loopback[0]}',
             f'description {loopback[1]}',
             f'ip add {loopback[2]} {loopback[3]}')
 
-#Variavel 'show' contem comando de verificação de config da interface e ira trazer apenas a Description e o IP Address
+#Variavel 'show' contem comando de verificação de config da interface e ira 
+#trazer apenas a Description e o IP Address
 show = (f'show running interface Loopback{loopback[0]} | i desc|ip')
 
 #Variavel 'interface' ira enviar para o device os comandos da lista 'confLoop'
@@ -59,7 +62,9 @@ ssh.exit_enable_mode()
 #A Lista 'fing' ira receber as informações da Variavel 'showl' em forma de lista
 find = showl.split()
 
-#A Função Print tem apenas a tarefa de exibir o que e onde foi feito, dessa forma mostrando o Nome do Device acessado, o IP e a Descrição que foram inceridos na interface Loopback.
+#A Função Print tem apenas a tarefa de exibir o que e onde foi feito, dessa 
+#forma mostrando o Nome do Device acessado, o IP e a Descrição que foram 
+#inceridos na interface Loopback.
 print(f'{nome[1]} - Interface: Loopback{loopback[0]} \tIP: {find[4]} \tDescription: {find[1]}')
 
 print('\nConcluido!')

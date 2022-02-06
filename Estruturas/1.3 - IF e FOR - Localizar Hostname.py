@@ -1,7 +1,9 @@
 '''
 Estrutura Condicional (IF, ELIF e ELSE) e Estrutra de Repetição (FOR e WHILE)
 
-    Uma estrutura condicional como IF, ELIF e ELSE, é extremamente importante para validação de uma determinada Condição de Verdadeiro ou Falso, e após isso determinar ações para caso: 
+    Uma estrutura condicional como IF, ELIF e ELSE, é extremamente importante 
+    para validação de uma determinada Condição de Verdadeiro ou Falso, e após 
+    isso determinar ações para caso: 
 
     (IF)SE a expressão for verdadeira:
         Faça (AÇÃO 1)
@@ -10,7 +12,11 @@ Estrutura Condicional (IF, ELIF e ELSE) e Estrutra de Repetição (FOR e WHILE)
     (ELSE) SENÃO: 
         Faça (AÇÃO 3)
 
-    Com uma Estrutra de Repetição se é possivel determinar que uma determinada ação deve se repetida algumas ou milhares de vezes, tendo sempre um Inicio e um Fim já pré determinado até ser concluida (FOR), ou até mesmo determinar que determinada função só ira parar de ser executada se determinado argumento torne-se Verdadeiro ou Falso (WHILE).
+    Com uma Estrutra de Repetição se é possivel determinar que uma determinada 
+    ação deve se repetida algumas ou milhares de vezes, tendo sempre um Inicio 
+    e um Fim já pré determinado até ser concluida (FOR), ou até mesmo determinar 
+    que determinada função só ira parar de ser executada se determinado argumento 
+    torne-se Verdadeiro ou Falso (WHILE).
 
     (WHILE) ENQUANTO a expressão for verdadeira:
         Execute (AÇÃO)
@@ -41,16 +47,23 @@ boot-end-marker
 !
 '''
 
-#Criado uma nova Variavel que ira receber a Variavel Texto Quebrada com base em cada Espaço que tem entre as palavras separando por Indices, essa é a função do .split().
+#Criado uma nova Variavel que ira receber a Variavel Texto Quebrada com base em 
+#cada Espaço que tem entre as palavras separando por Indices, essa é a função do .split().
 text = (texto).split()
 
 
 ''' 
 Explicando o funcionamento do LOOP FOR e junção com a Condicional IF
 
-- Inicio do Loop FOR, é criado uma Variavel Contadora (x), é somente utilizada para contar cada indice, e a cada volta, ele se torna o Numero da posição de cada Indice com base no tamanho da Variavel Text.
+- Inicio do Loop FOR, é criado uma Variavel Contadora (x), é somente utilizada 
+para contar cada indice, e a cada volta, ele se torna o Numero da posição de 
+cada Indice com base no tamanho da Variavel Text.
 
-- O IF tem a função de Verificar que SE a palavra 'hostname' for IGUAL a Variavel text[Na Posição do valor da Variavel Contadora X] (se esse confirmação for Verdadeira), a Variavel Host ira RECEBER text[Na Posição do valor da Variavel Contadora X + 1] sendo que o +1, significa que ira receber o valor do Proximo Indice, nesse caso o Nome do Equipamento.
+- O IF tem a função de Verificar que SE a palavra 'hostname' for IGUAL a 
+Variavel text[Na Posição do valor da Variavel Contadora X] (se esse confirmação 
+for Verdadeira), a Variavel Host ira RECEBER text[Na Posição do valor da 
+Variavel Contadora X + 1] sendo que o +1, significa que ira receber o valor 
+do Proximo Indice, nesse caso o Nome do Equipamento.
 
 - A Função Print ira Montrar o conteudo da Variavel host.
 '''
