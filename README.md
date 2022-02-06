@@ -4,7 +4,7 @@ Comecei recentemente nesse mundo da programação para me auxiliar em como otimi
 
 Mas devido a precisão de criar formas de agilizar meu trabalho com Infra de redes, comecei a buscar formas de automatizar minhas ações a quase Clicks.
 
-Minha intensão aqui é ajudar com o meu breve conhecimento em Python, aqueles que também estão em busca de criar suas próprias soluções para atividades contidianas em Redes, e dessa forma também conseguirmos criar ferramentas para manusear dados de formas mais isolada, trabalhar com parques de Routers e Switchs utilizando simples scritps em Python para fazer uma coleta em mais de 1000 Switchs, ao em vez de acessar um-por-um e executar o mesmo comando repetidas vezes, o script fará todo o trabalho para você.
+Minha intenção aqui é ajudar com o meu breve conhecimento em Python, aqueles que também estão em busca de criar suas próprias soluções para atividades cotidianas em Redes, e dessa forma também conseguirmos criar ferramentas para manusear dados de formas mais isolada, trabalhar com parques de Routers e Switchs utilizando simples scritps em Python para fazer uma coleta em mais de 1000 Switchs, ao em vez de acessar um-por-um e executar o mesmo comando repetidas vezes, o script fará todo o trabalho para você.
 
 Tudo o que venho trazer aqui, é com base em pesquisas por pequenas necessidades... 
 
@@ -17,17 +17,17 @@ Então são essas pequenas ações que me fazem buscar por uma determinada forma
 Sendo assim, devido não ter um aprofundamento a nivel de um Developer que teria muito mais facilidade em construir um Script em dois palitos para fazer tudo isso, eu trago a vocês a visão de um CCNA-R&S que está buscando aprender e compartilhar com base na minha visão, esse Mundo de Programabildiade com a Linguagem Python para utilizar em tarefas do dia-a-dia em uma Infraestrutura de Network. 
 
 ## Estruturas
-Essa etapa visa mostrar parte por parte de como utilizar cada ação, recomendo que entenda cada uma delas de forma isolada realizando testes no  seu script, copie a formula exata de cada etapa, e teste, e ao compreender, manipular a sua maneira a criação de Variaveis, Condicionais e Estrutura de Loops, realizar essa função de forma mais simples fique livre para tentar otimizar o seu script, mas lembrando que essas foram a forma como encontrei para criar o meu próprio. (E que ainda segue em fase de construção)
+Essa etapa visa mostrar parte por parte de como utilizar cada ação, recomendo que entenda cada uma delas de forma isolada realizando testes no  seu script, copie a formula exata de cada etapa, e teste, e ao compreender, manipular a sua maneira a criação de Variaveis, Condicionais e Estrutura de Loops, realizar essa função de forma mais simples fique livre para tentar otimizar o seu script, mas lembrando que essas foram as formas como encontrei para criar o meu próprio. (E que ainda segue em fase de construção)
 
 ## Primeira Parte
 	
 Eu começo essa primeira parte com:
 - Criar e Ler um Arquivo, pois foi o que eu mais tive dificuldade de entender.
-- logo em seguida por 'Dia e hora' isso ira ajudar quando for pegar informação de coleta de informação do equipamento, e precisar criar arquivo diferente para o mesmo equipamento em horas ou dias diferete, fazendo um Backup da configuração do equipamento.
+- logo em seguida por 'Dia e hora', isso ira ajudar quando for coletar informação do equipamento, e precisar criar um arquivo diferente para o mesmo equipamento em horas ou dias diferentes, fazendo um Backup da configuração do equipamento.
 
 - Depois como localizar o nome do equipamento dentro de um 'Running-Config', para assim dar o nome ao arquivo posteriormente.
 
-- E enfim, como acessar os equipamento com a Biblioteca Netmiko por meio do protocolo SSH (Secure Shell).
+- E enfim, como acessar o equipamento com a Biblioteca Netmiko por meio do protocolo SSH (Secure Shell).
 	- [1.1 - Criando e Lendo um Arquivo](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.1%20-%20Criando%20e%20Lendo%20um%20Arquivo.py)
 	- [1.2 - Dia e Hora](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.2%20-%20Dia%20e%20Hora.py)
 	- [1.3 - IF e FOR - Localizar Hostname](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.3%20-%20IF%20e%20FOR%20-%20Localizar%20Hostname.py)
@@ -55,5 +55,3 @@ Na terceira parte começo a Definir Funções que possam otimizar as aplicaçõe
 José Osmar Caitano
 
 https://www.linkedin.com/in/jose-osmar-caitano-06089113a/
-
-
