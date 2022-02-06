@@ -32,14 +32,15 @@ Eu começo essa primeira parte com:
 	- [1.2 - Dia e Hora](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.2%20-%20Dia%20e%20Hora.py)
 	- [1.3 - IF e FOR - Localizar Hostname](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.3%20-%20IF%20e%20FOR%20-%20Localizar%20Hostname.py)
 	- [1.4 - SSH_Netmiko](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.4%20-%20SSH_Netmiko.py) 
-
-
+		- [1.4.1 - Adicionar Hostname ao nome do Arquivo]
+		- [1.4.2 - Adicionar Data e Hora atual ao nome do Arquivo de texto]
+		- [1.4.3 - Usado estrutura de Loop para acessar mais de um devide]
+		- [1.4.4 - Usando Lista externa de IP para acessar multiplos devices]
 
 ### Segunda Parte
 
 - A segunda parte já para aplicar comandos dentro equipamento, embora tenha uma visão um pouco mais complexa, quando aplicar fica mais compreensivel o que está acontecendo enquanto o programa roda, mas busquei detalhar o maximo possivel cada parte com comentários.
 	- [ 2.1 - Criação de Multiplas Vlans](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.1%20-%20Criação%20de%20Multiplas%20Vlans.py)
-		- Teste
 	- [ 2.2 - Criação de interface Loopback](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.2%20-%20Criação%20de%20interface%20Loopback.py)
 	- [ 2.3 - Configurando e Validando um P2P](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.3%20-%20Configurando%20e%20Validando%20um%20P2P.py)
  - 2.4 - Configurando Roteamento em multiplos Devices (Em Desenvolvimento)
