@@ -44,7 +44,7 @@ Eu começo essa primeira parte com:
 ## Terceira Parte
 
 Na terceira parte começo a Definir Funções que possam otimizar as aplicações mais complexas separando cada ação em Funções, para que na Quarta parte seja juntado todas etapas em um unico Script.
- - 3.1 - Criando Função - Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices (Em Desenvolvimento)
+	- [3.1 - Criando Função - Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/3.1%20-%20Função%20-%20Tomada%20de%20Decisão%20de%20criar%20Loopback%20em%201%20ou%20Multiplos%20Devices.py)
 
 ## Junção 
 
