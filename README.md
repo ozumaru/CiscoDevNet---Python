@@ -57,3 +57,7 @@ Eu começo essa primeira parte com:
 José Osmar Caitano
 
 https://www.linkedin.com/in/jose-osmar-caitano-06089113a/
+
+# Licenciamento
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/LICENSE)
