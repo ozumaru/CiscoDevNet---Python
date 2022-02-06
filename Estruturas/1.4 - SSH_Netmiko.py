@@ -60,7 +60,7 @@ dicionario = {
 #Senha Secreta do Enable e a Porta 22 que nesse caso é o do Protocolo SSH.
 cisco_router = {
     'device_type': 'cisco_ios',
-    'host': '192.168.10.192',
+    'host': '192.168.10.192',  #IP do equipamento que será acessado
     'username': 'cisco',
     'password': 'cisco',
     'secret': 'cisco',
@@ -80,7 +80,7 @@ ssh.enable()
 #A Variavel Result, utilizando a variavel SSH com uma função de Enviar um 
 #Comando ao equipamento '.send_command()' e dentro da função o comando e modo 
 #String para que o equipamento entenda a solicitação.
-result = ssh.send_command('ping 192.168.10.168')
+result = ssh.send_command('show ip interface bried')
 ssh.exit_enable_mode()
 
 
