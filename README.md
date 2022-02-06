@@ -32,10 +32,10 @@ Eu começo essa primeira parte com:
 	- [1.2 - Dia e Hora](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.2%20-%20Dia%20e%20Hora.py)
 	- [1.3 - IF e FOR - Localizar Hostname](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.3%20-%20IF%20e%20FOR%20-%20Localizar%20Hostname.py)
 	- [1.4 - SSH_Netmiko](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.4%20-%20SSH_Netmiko.py) 
-		- [1.4.1 - Adicionar Hostname ao nome do Arquivo]
-		- [1.4.2 - Adicionar Data e Hora atual ao nome do Arquivo de texto]
-		- [1.4.3 - Usado estrutura de Loop para acessar mais de um devide]
-		- [1.4.4 - Usando Lista externa de IP para acessar multiplos devices]
+		- [1.4.1 - Adicionar Hostname ao nome do Arquivo](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/1.4.1%20-%20Adicionar%20Hostname%20ao%20nome%20do%20Arquivo.py)
+		- [1.4.2 - Adicionar Data e Hora atual ao nome do Arquivo de texto](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/1.4.2%20-%20Adicionar%20Data%20e%20Hora%20atual%20ao%20nome%20do%20Arquivo%20de%20texto.py)
+		- [1.4.3 - Usado estrutura de Loop para acessar mais de um devide](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/1.4.3%20-%20Usado%20estrutura%20de%20Loop%20para%20acessar%20mais%20de%20um%20devide.py)
+		- [1.4.4 - Usando Lista externa de IP para acessar multiplos devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/1.4.4%20-%20Usando%20Lista%20externa%20de%20IP%20para%20acessar%20multiplos%20devices.py)
 
 ### Segunda Parte
 
@@ -50,9 +50,7 @@ Eu começo essa primeira parte com:
 - Na terceira parte começo a Definir Funções que possam otimizar as aplicações mais complexas separando cada ação em Funções, para que na Quarta parte seja juntado todas etapas em um unico Script.
 	- [ 3.1 - Criando Função: Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/3.1%20-%20Função%20-%20Tomada%20de%20Decisão%20de%20criar%20Loopback%20em%201%20ou%20Multiplos%20Devices.py)
 
-## Junção 
-
-** Ainda em criação **
+## Bibliografia
 
 ## Autor
 
