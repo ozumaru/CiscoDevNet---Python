@@ -50,7 +50,27 @@ Eu começo essa primeira parte com:
 - Na terceira parte começo a Definir Funções que possam otimizar as aplicações mais complexas separando cada ação em Funções, para que na Quarta parte seja juntado todas etapas em um unico Script.
 	- [ 3.1 - Criando Função: Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/3.1%20-%20Função%20-%20Tomada%20de%20Decisão%20de%20criar%20Loopback%20em%201%20ou%20Multiplos%20Devices.py)
 
-## Bibliografia
+## Refencial Bibliografia 
+ - Variaveis
+	- [Tipos de Variaveis: Python Academy](https://pythonacademy.com.br/blog/tipos-de-variaveis-no-python#dicionários-dict)
+
+ - Lista
+    - [Manipulação de Lista: Codin Game](https://www.codingame.com/playgrounds/52499/programacao-python-intermediario---prof--marco-vaz/manipulando-listas-continuacao)
+    - [Substituir elemento na Lista: DelftStack](https://www.delftstack.com/pt/howto/python/python-list-replace-element/)
+    - [Concatenar Itens de uma Lista: Stack Overflow](https://pt.stackoverflow.com/questions/324979/como-concatenar-itens-de-uma-lista-em-python)
+
+ - Funções
+    - [Declarando Funções - 1: Stack Overflow](https://pt.stackoverflow.com/questions/324979/como-concatenar-itens-de-uma-lista-em-python)
+    - [Declarando Funções - 2: Python Progressivo](https://www.pythonprogressivo.net/2018/06/Como-Declarar-Chamar-Usar-Funcoes-em-Python.html)
+
+- Manipulação de Arquivos
+    - [Manipulação de Arquivos - 1: Diego Mariano](https://diegomariano.com/manipulando-arquivos/)
+    - [Manipulação de Arquivos - 2: Cafeina Codificada](https://cafeinacodificada.com.br/arquivos-no-python/)
+
+- Biblioteca
+    - [Datetime: DelftStack](https://www.delftstack.com/pt/howto/python/python-get-date-today/)
+    - [Netmiko - 1: Pypi](https://pypi.org/project/netmiko/)
+    - [Netmiko - 2: Python for Network Engineers](https://pyneng.readthedocs.io/en/latest/book/18_ssh_telnet/netmiko.html)
 
 ## Autor
 
