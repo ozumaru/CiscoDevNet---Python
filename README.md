@@ -28,27 +28,27 @@ Eu começo essa primeira parte com:
 - Depois como localizar o nome do equipamento dentro de um 'Running-Config', para assim dar o nome ao arquivo posteriormente.
 
 - E enfim, como acessar o equipamento com a Biblioteca Netmiko por meio do protocolo SSH (Secure Shell).
-	- [1.1 - Criando e Lendo um Arquivo](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.1%20-%20Criando%20e%20Lendo%20um%20Arquivo.py)
-	- [1.2 - Dia e Hora](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.2%20-%20Dia%20e%20Hora.py)
-	- [1.3 - IF e FOR - Localizar Hostname](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.3%20-%20IF%20e%20FOR%20-%20Localizar%20Hostname.py)
-	- [1.4 - SSH_Netmiko](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/1.4%20-%20SSH_Netmiko.py) 
-		- [1.4.1 - Adicionar Hostname ao nome do Arquivo](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/1.4.1%20-%20Adicionar%20Hostname%20ao%20nome%20do%20Arquivo.py)
-		- [1.4.2 - Adicionar Data e Hora atual ao nome do Arquivo de texto](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/1.4.2%20-%20Adicionar%20Data%20e%20Hora%20atual%20ao%20nome%20do%20Arquivo%20de%20texto.py)
-		- [1.4.3 - Usado estrutura de Loop para acessar mais de um devide](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/1.4.3%20-%20Usado%20estrutura%20de%20Loop%20para%20acessar%20mais%20de%20um%20devide.py)
-		- [1.4.4 - Usando Lista externa de IP para acessar multiplos devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/1.4.4%20-%20Usando%20Lista%20externa%20de%20IP%20para%20acessar%20multiplos%20devices.py)
+	- [1.1 - Criando e Lendo um Arquivo](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/New/1.1%20-%20Criando%20e%20Lendo%20um%20Arquivo.md)
+	- [1.2 - Dia e Hora](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/New/1.2%20-%20Dia%20e%20Hora.md)
+	- [1.3 - IF e FOR - Localizar Hostname](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/New/1.3%20-%20IF%20e%20FOR%20-%20Localizar%20Hostname.md)
+	- [1.4 - SSH_Netmiko](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/New/1.4%20-%20SSH_Netmiko.md)
+		- [1.4.1 - Adicionar Hostname ao nome do Arquivo](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/New/1.4.1%20-%20Adicionar%20Hostname%20ao%20nome%20do%20Arquivo.md)
+		- [1.4.2 - Adicionar Data e Hora atual ao nome do Arquivo de texto](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/New/1.4.2%20-%20Adicionar%20Data%20e%20Hora%20atual%20ao%20nome%20do%20Arquivo%20de%20texto.md)
+		- [1.4.3 - Usado estrutura de Loop para acessar mais de um devide](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/New/1.4.3%20-%20Usado%20estrutura%20de%20Loop%20para%20acessar%20mais%20de%20um%20devide.md)
+		- [1.4.4 - Usando Lista externa de IP para acessar multiplos devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Junção/New/1.4.4%20-%20Usando%20Lista%20externa%20de%20IP%20para%20acessar%20multiplos%20devices.md)
 
 ### Segunda Parte
 
 - A segunda parte já para aplicar comandos dentro equipamento, embora tenha uma visão um pouco mais complexa, quando aplicar fica mais compreensivel o que está acontecendo enquanto o programa roda, mas busquei detalhar o maximo possivel cada parte com comentários.
-	- [ 2.1 - Criação de Multiplas Vlans](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.1%20-%20Criação%20de%20Multiplas%20Vlans.py)
-	- [ 2.2 - Criação de interface Loopback](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.2%20-%20Criação%20de%20interface%20Loopback.py)
-	- [ 2.3 - Configurando e Validando um P2P](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/2.3%20-%20Configurando%20e%20Validando%20um%20P2P.py)
+	- [ 2.1 - Criação de Multiplas Vlans](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/New/2.1%20-%20Criação%20de%20Multiplas%20Vlans.md)
+	- [ 2.2 - Criação de interface Loopback](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/New/2.2%20-%20Criação%20de%20interface%20Loopback.md)
+	- [ 2.3 - Configurando e Validando um P2P](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/New/2.3%20-%20Configurando%20e%20Validando%20um%20P2P.md)
  - 2.4 - Configurando Roteamento em multiplos Devices (Em Desenvolvimento)
 
 ### Terceira Parte
 
 - Na terceira parte começo a Definir Funções que possam otimizar as aplicações mais complexas separando cada ação em Funções, para que na Quarta parte seja juntado todas etapas em um unico Script.
-	- [ 3.1 - Criando Função: Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/3.1%20-%20Função%20-%20Tomada%20de%20Decisão%20de%20criar%20Loopback%20em%201%20ou%20Multiplos%20Devices.py)
+	- [ 3.1 - Criando Função: Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Estruturas/New/3.1%20-%20Função%20-%20Tomada%20de%20Decisão%20de%20criar%20Loopback%20em%201%20ou%20Multiplos%20Devices.md)
 
 ## Referencial Bibliografico
  - Variaveis
