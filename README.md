@@ -52,12 +52,10 @@ Eu começo essa primeira parte com:
 ### 4° Parte
 
 - Nessa quarta parte eu trago com base em minhas vivencias nesse mundo de automação com Python para Network, alguns pontos importantes de Tratamento de Dados, é que o retorno do comando enviado ao Device, esse pontos são;
-	- Requisição de informação em uma range de equipamentos
 	- Tratamento de dados em como retornar essas informações em arquivos de textos para cada equipamento.
 	- Organizando dos dados de Output de cada equipamento, pois dependendo da quantidade de informações que são exigidas por comandos, organizar essa informação por arquivo para localizar ficar mais Legivel.
 		- [4.1 - Em processo]()
 		- [4.2 - Em processo]()
-		- [4.3 - Em processo]()
 
 ### 5° parte
 
