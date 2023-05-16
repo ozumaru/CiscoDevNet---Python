@@ -19,7 +19,7 @@ Sendo assim, devido não ter um aprofundamento a nivel de um Developer que teria
 ## Estruturas
 Essa etapa visa mostrar parte por parte de como utilizar cada ação, recomendo que entenda cada uma delas de forma isolada realizando testes no  seu script, copie a formula exata de cada etapa, e teste, e ao compreender, manipular a sua maneira a criação de Variáveis, Condicionais e Estrutura de Loops, realizar essa função de forma mais simples. Fique livre para tentar otimizar o seu script, mas lembrando que essas foram as formas como encontrei para criar o meu próprio. (E que ainda segue em fase de construção)
 
-### Primeira Parte
+### 1° Parte
 	
 Eu começo essa primeira parte com:
 - Criar e Ler um Arquivo, pois foi o que eu mais tive dificuldade de entender.
@@ -37,18 +37,33 @@ Eu começo essa primeira parte com:
 		- [1.4.3 - Usado estrutura de Loop para acessar mais de um devide](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/1.4.3%20-%20Usado%20estrutura%20de%20Loop%20para%20acessar%20mais%20de%20um%20devide.md)
 		- [1.4.4 - Usando Lista externa de IP para acessar multiplos devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/1.4.4%20-%20Usando%20Lista%20externa%20de%20IP%20para%20acessar%20multiplos%20devices.md)
 
-### Segunda Parte
+### 2° Parte
 
 - A segunda parte já para aplicar comandos dentro equipamento, embora tenha uma visão um pouco mais complexa, quando aplicar fica mais compreensivel o que está acontecendo enquanto o programa roda, mas busquei detalhar o maximo possivel cada parte com comentários.
 	- [ 2.1 - Criação de Multiplas Vlans](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/2.1%20-%20Criação%20de%20Multiplas%20Vlans.md)
 	- [ 2.2 - Criação de interface Loopback](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/2.2%20-%20Criação%20de%20interface%20Loopback.md)
 	- [ 2.3 - Configurando e Validando um P2P](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/2.3%20-%20Configurando%20e%20Validando%20um%20P2P.md)
- - 2.4 - Configurando Roteamento em multiplos Devices (Em Desenvolvimento)
 
-### Terceira Parte
+### 3° Parte
 
-- Na terceira parte começo a Definir Funções que possam otimizar as aplicações mais complexas separando cada ação em Funções, para que na Quarta parte seja juntado todas etapas em um unico Script.
+- Na terceira parte começo a Definir Funções que possam otimizar as aplicações mais complexas separando cada ação em Funções.
 	- [ 3.1 - Criando Função: Tomada de Decisão de criar Loopback em 1 ou Multiplos Devices](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/3.1%20-%20Função%20-%20Tomada%20de%20Decisão%20de%20criar%20Loopback%20em%201%20ou%20Multiplos%20Devices.md)
+
+### 4° Parte
+
+- Nessa quarta parte eu trago com base em minhas vivencias nesse mundo de automação com Python para Network, alguns pontos importantes de Tratamento de Dados, é que o retorno do comando enviado ao Device, esse pontos são;
+	- Requisição de informação em uma range de equipamentos
+	- Tratamento de dados em como retornar essas informações em arquivos de textos para cada equipamento.
+	- Organizando dos dados de Output de cada equipamento, pois dependendo da quantidade de informações que são exigidas por comandos, organizar essa informação por arquivo para localizar ficar mais Legivel.
+		- [4.1 - Em processo]()
+		- [4.2 - Em processo]()
+		- [4.3 - Em processo]()
+
+### 5° parte
+
+- Recentemente uma das minha validações foi para solicitar uma informação muito especifica usando o protocolo CDP (Cisco Discovery Protocol), no entanto, o retorno dessa informação no equipamento tem uma estrura que, quem geralmente usa esse comando, fica mais facil identificar o output, no entanto, em uma grande escala, e dependendo de quantos devices conectados: Switchs, Router, Access Points que usam o protocolo CDP que é proprietário Cisco.
+- Então nessa parte trago tramento de CDP com saida em CSV de forma bem mais estruturada e mais amigavel de se entender.
+	- [5.1 - Em processo]()
 
 ## Referencial Bibliografico
  - Variaveis
