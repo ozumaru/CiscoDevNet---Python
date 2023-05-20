@@ -54,12 +54,12 @@ Eu começo essa primeira parte com:
 - Nessa quarta parte eu trago com base em minhas vivencias nesse mundo de automação com Python para Network, alguns pontos importantes de Tratamento de Dados, é que o retorno do comando enviado ao Device, esse pontos são;
 	- Tratamento de dados em como retornar essas informações em arquivos de textos para cada equipamento.
 	- Organizando dos dados de Output de cada equipamento, pois dependendo da quantidade de informações que são exigidas por comandos, organizar essa informação por arquivo para localizar ficar mais Legivel.
-		- [4.1 - Loop for para adicionar Dicionarios dentro de uma Lista](Adicionar)
-		- [4.2 - Criando arquivos CSV para adicionar listas em ordem](Adicionar)
+		- [4.1 - Loop for para adicionar Dicionarios dentro de uma Lista](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/4.1%20-%20Loop%20for%20para%20adicionar%20Dicionarios%20dentro%20de%20uma%20Lista.md)
+		- [4.2 - Criando arquivos CSV para adicionar listas em ordem](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/4.2%20-%20Criando%20arquivos%20CSV%20para%20adicionar%20listas%20em%20ordem.md)
 
 	- Recentemente uma das minha validações foi para solicitar uma informação muito especifica usando o protocolo CDP (Cisco Discovery Protocol), no entanto, o retorno dessa informação no equipamento tem uma estrura que, quem geralmente usa esse comando, fica mais facil identificar o output, no entanto, em uma grande escala, e dependendo de quantos devices conectados: Switchs, Router, Access Points que usam o protocolo CDP que é proprietário Cisco.
 	- Então nessa parte trago tramento de CDP com saida em CSV de forma bem mais estruturada e mais amigavel de se entender.
-		- [4.3 - Coleta de CDP e criação de CSV com as informação estruturadas](Adicionar)
+		- [4.3 - Coleta de CDP e criação de CSV com as informação estruturadas](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/4.3%20-%20Coleta%20de%20CDP%20e%20cria%C3%A7%C3%A3o%20de%20CSV%20com%20as%20informa%C3%A7%C3%A3o%20estruturadas.md)
 
 ### 5° parte
 - Rotina de Backup em Linux - Em progresso
