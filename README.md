@@ -54,14 +54,16 @@ Eu começo essa primeira parte com:
 - Nessa quarta parte eu trago com base em minhas vivencias nesse mundo de automação com Python para Network, alguns pontos importantes de Tratamento de Dados, é que o retorno do comando enviado ao Device, esse pontos são;
 	- Tratamento de dados em como retornar essas informações em arquivos de textos para cada equipamento.
 	- Organizando dos dados de Output de cada equipamento, pois dependendo da quantidade de informações que são exigidas por comandos, organizar essa informação por arquivo para localizar ficar mais Legivel.
-		- [4.1 - Em processo]()
-		- [4.2 - Em processo]()
+		- [4.1 - Loop for para adicionar Dicionarios dentro de uma Lista](Adicionar)
+		- [4.2 - Criando arquivos CSV para adicionar listas em ordem](Adicionar)
+
+	- Recentemente uma das minha validações foi para solicitar uma informação muito especifica usando o protocolo CDP (Cisco Discovery Protocol), no entanto, o retorno dessa informação no equipamento tem uma estrura que, quem geralmente usa esse comando, fica mais facil identificar o output, no entanto, em uma grande escala, e dependendo de quantos devices conectados: Switchs, Router, Access Points que usam o protocolo CDP que é proprietário Cisco.
+	- Então nessa parte trago tramento de CDP com saida em CSV de forma bem mais estruturada e mais amigavel de se entender.
+		- [4.3 - Coleta de CDP e criação de CSV com as informação estruturadas](Adicionar)
 
 ### 5° parte
+- Rotina de Backup em Linux - Em progresso
 
-- Recentemente uma das minha validações foi para solicitar uma informação muito especifica usando o protocolo CDP (Cisco Discovery Protocol), no entanto, o retorno dessa informação no equipamento tem uma estrura que, quem geralmente usa esse comando, fica mais facil identificar o output, no entanto, em uma grande escala, e dependendo de quantos devices conectados: Switchs, Router, Access Points que usam o protocolo CDP que é proprietário Cisco.
-- Então nessa parte trago tramento de CDP com saida em CSV de forma bem mais estruturada e mais amigavel de se entender.
-	- [5.1 - Em processo]()
 
 ## Referencial Bibliografico
  - Variaveis
