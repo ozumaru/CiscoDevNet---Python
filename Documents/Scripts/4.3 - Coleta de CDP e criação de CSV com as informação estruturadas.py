@@ -99,7 +99,7 @@ for linha in addr:
                 coleta = {"hostname":hostname, "Device":device, "IP":ip_device, "Input_Port":input_port, "Outgoing_Port":outgoing_port}
                 cdp.append(coleta)
                     
-                with open(f"//home//ab629089//py_net//Coleta//UPLINK//{hostname}_{now}.csv", mode="w", newline="", encoding="utf-8") as arquivo_csv:
+                with open(f"Local do diretorio de output do CSV/{hostname}_{now}.csv", mode="w", newline="", encoding="utf-8") as arquivo_csv:
                     colunas = csv.writer(arquivo_csv, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL)
                     colunas.writerow(
                                      ["hostname", 
@@ -135,7 +135,7 @@ for linha in addr:
         nok += (f'Falha de Conexao: {ip}')
         
 arq = (f"Equipamentos Acessados: \n{ok} \n{separador} \nEquipamentos sem acesso: \n{nok}")
-texto = open(f'//home//ab629089//py_net//Coleta//UPLINK//Conexoes_{now}.txt', 'w')
+texto = open(f'Local do diretorio de output/Conexoes_{now}.txt', 'w')
 texto.write(arq)
 texto.close()
    
