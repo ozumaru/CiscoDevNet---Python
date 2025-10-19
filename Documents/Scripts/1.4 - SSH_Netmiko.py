@@ -6,7 +6,7 @@ cisco_router = {
     'username': 'cisco',
     'password': 'cisco',
     'secret': 'cisco',
-    'port': 22,
+    'port': 22
 }
 
 ssh = ConnectHandler(**cisco_router)
