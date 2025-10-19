@@ -35,7 +35,7 @@ show = (f'show running interface Loopback{loopback[0]} | i desc|ip')
 interface = ssh.send_config_set(confLoop)
 showl = ssh.send_command(show)
 
-ssh.exit_enable_mode()
+ssh.disconnect()
 
 find = showl.split()
 print(f'{nome[1]} - Interface: Loopback{loopback[0]} \tIP: {find[4]} \tDescription: {find[1]}')
