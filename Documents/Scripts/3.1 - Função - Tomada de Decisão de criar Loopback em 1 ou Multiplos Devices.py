@@ -24,7 +24,7 @@ def umdevice (ip):
 
     print(f'{nome[1]} - {showl}')
 
-    ssh.exit_enable_mode()
+    ssh.disconnect()
 
 def lista (arquivo):
     addr = arquivo.readlines()
