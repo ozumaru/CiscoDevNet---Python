@@ -59,6 +59,6 @@ for x in range(len(ip)):
         ping = ssh.send_command(f'ping {p2p[0]}')
         print(f'\n{ping}')
 
-    ssh.exit_enable_mode()
+    ssh.disconnect()
 
 print('Concluido!')
