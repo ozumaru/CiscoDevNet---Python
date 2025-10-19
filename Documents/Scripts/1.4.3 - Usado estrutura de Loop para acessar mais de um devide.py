@@ -23,7 +23,7 @@ for y in range(len(hosts)):
 
     config = ssh.send_command('show running')
 
-    ssh.exit_enable_mode()
+    ssh.disconnect()
 
     running = (config).split()
     for x in range(len(running)):
