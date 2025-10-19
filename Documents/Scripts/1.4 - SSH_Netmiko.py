@@ -13,6 +13,6 @@ ssh = ConnectHandler(**cisco_router)
 ssh.enable()
 
 result = ssh.send_command('show ip interface brief')
-ssh.exit_enable_mode()
+ssh.disconnect()
 
 print (result)
