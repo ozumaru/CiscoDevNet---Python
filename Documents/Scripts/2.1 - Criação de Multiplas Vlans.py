@@ -81,4 +81,4 @@ while opcoes == 'S':
     opcoes = input('\nContinuar: (S/N) \nR: ').upper()
 
 print('\nFim da Operação: Vlans')
-ssh.exit_enable_mode()
+ssh.disconnect()
