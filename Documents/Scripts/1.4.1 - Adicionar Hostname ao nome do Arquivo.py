@@ -16,7 +16,7 @@ ssh = ConnectHandler(**cisco_router)
 ssh.enable()
 
 config = ssh.send_command('show running')
-ssh.exit_enable_mode()
+ssh.disconnect()
 
 running = (config).split()
 
