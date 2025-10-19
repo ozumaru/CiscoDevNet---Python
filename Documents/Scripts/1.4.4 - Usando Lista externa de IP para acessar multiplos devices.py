@@ -36,7 +36,7 @@ for linha in addr:
     arq.close()
 
     n = n+1
-    ssh.exit_enable_mode()
+    ssh.disconnect()
 
     print(f'O {n}º Device é: {hostname}')
 
