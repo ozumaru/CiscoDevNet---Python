@@ -1,5 +1,7 @@
 # Python para Network
 
+- teste
+
 Comecei recentemente nesse mundo da programação para me auxiliar em como otimizar minhas atividades com mais rapidez, busquei por uma linguagem simples para criar ferramentas de automação e agilizar multiplas Tarefas para qualquer coisa.
 
 Mas devido a precisão de criar formas de agilizar meu trabalho com Infra de redes, comecei a buscar formas de automatizar minhas ações a quase Clicks.
