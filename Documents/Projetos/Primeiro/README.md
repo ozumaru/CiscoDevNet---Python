@@ -35,4 +35,9 @@ Em "Labels" > Always On
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/always_on_gif.gif" width="500">
 </p>
 
-Após a filtragem 
+Após a filtragem, Click em "🚀 Launch" no device *Catalyst 9000 Always-On Sandbox*
+
+Em "Labels" > Always On
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/start_c9k.gif" width="700">
+</p>
