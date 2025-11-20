@@ -12,8 +12,8 @@ Dia 18/11/2025 eu ministrei uma aula de Python focado em Infraestrutura de Redes
      - Preparando o Ambiente Virtual do Python (VENV) para instalação de dependencias.
      - Principal Biblioteca utilizada: NETMIKO 
      - Como Manipular Textos em Python e suas estruturas: TUPLA, LISTA, DICIONARIO
-      - Utilizado variações do 'SPLIT' para transformar uma 'STRING' em uma 'LISTA'
-      - Utilizado o FOR para varredura de dados nas listas
+       - Utilizado variações do 'SPLIT' para transformar uma 'STRING' em uma 'LISTA'
+       - Utilizado o FOR para varredura de dados nas listas
      - Criar, fazer a Leitura e Manipular um dado do tipo JSON.
 
  - Foi utilizado como Ambiente de Teste o Cisco Sandbox para emular um Switch Catalyst 9K.
