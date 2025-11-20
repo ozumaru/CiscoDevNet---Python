@@ -138,7 +138,21 @@ Ali tem um ponto mesmo no Comando, e para que ele serve?
  - 3° python -m venv <NOME_DO_AMBIENTE>    |Aqui você pode alterar o nome do ambiente como desejar
 
 Ao abrir o terminal, faça o comando "cd Virtual_Enviroment" para entrar no diretorio que vai criar o ambiente 
-Nota-se que ao aplicar o comando que ele crie outros arquivos: lib
-<p align="left"> 
-  <p align="left"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/venv.gif" width="700">
+Nota-se que ao aplicar o comando que ele cria outros arquivos:
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/venv.gif" width="700">
+</p>
+
+Esse é o ambiente que o python cria para que isole os seus testes do ambiente de produção.
+
+Agora para entrar nele, você precisa executar o comando "**.\Scripts\activate**" pode ocorrer de aparece um erro de permissão mostrando o erro a baixo, para corrigir isso executar o comando a seguir:
+Caso erro ocorra, vai em Iniciar > Powershell (Abrir como Admininstrador) > executar o comando: Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/erro.png" width="700">
+</p>
+
+Mas caso não ocorra erro, ele tem que entrar nesse modo:
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/in_venv.png" width="700">
 </p>
