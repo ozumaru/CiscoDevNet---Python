@@ -154,8 +154,8 @@ Caso erro ocorra, vai em Iniciar > Powershell (Abrir como Admininstrador) > exec
 </p>
 
 Mas caso não ocorra erro, ele tem que entrar nesse modo:
-Comando para Entrar: "**.\Scripts\activate**"
-Comando para Sair: "**deactivate**"
+- Comando para Entrar: "**.\Scripts\activate**"
+- Comando para Sair: "**deactivate**"
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/in_out_venv.gif" width="700">
 </p>
@@ -178,3 +178,15 @@ E Onde e Como instalamos ela, Dentro do Ambiente virtual com o comando: **pip in
 </p>
 
 Repare que eu expandi o diretorio "Lib\site-packages" e nesse local é onde todas as bibliotecas serão instaladas dentro do ambiente, e veja que assim que iniciamos a instalação do Netmiko, é criado um monte de dependencias para o funcionamento dessa ferramenta, por isso se é criando um ambiente virtual, para não bagunçar a dependencia de outras aplicações que já existente.
+
+<p align="center">
+  <h2><p align="center">"SIMBORA"</p></h2>
+</p>
+
+A partir de agora, vamos nos digirir para o diretorio "Automation" para seguir com a criação dos projetos, lembrando que, inicialmente eu vou disponibilizar eles na versão final, vou comentar o que cada etapa está sendo feita, e vou produzir videos explicando como foi o meu raciocinio para alcaçar esse objetivo.
+
+ - Link para a Atividade: [Backup_interface_Vlan](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Automation)
+
+<p align="center">
+  <h2><p align="center">Até lá</p></h2>
+</p>
