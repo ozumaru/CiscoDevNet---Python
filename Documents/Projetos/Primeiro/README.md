@@ -1,4 +1,6 @@
-# BACKUP/ INTERFACE/ VLAN
+<p align="center">
+  <h1<p align="center">  BACKUP/ INTERFACE/ VLAN </p></h1> 
+</p>
 
 Esse projeto tem com objetivo: 
  - Criar uma Rotina de Backup
@@ -35,9 +37,32 @@ Em "Labels" > Always On
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/always_on_gif.gif" width="500">
 </p>
 
-Após a filtragem, Click em "🚀 Launch" no device *Catalyst 9000 Always-On Sandbox*
+Após a filtragem, no device *Catalyst 9000 Always-On Sandbox*, Click em: "🚀 Launch" > "Review Summary" > "Launch Enviroment"
+E em alguns minutos o seu device já está instanciado na plataforma pronto para uso com Usuario e senha que foram gerados para você.
 
-Em "Labels" > Always On
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/start_c9k.gif" width="700">
+</p>
+
+
+E conforme abaixo, o device já pronto para uso, e na marcação em vermelho, consta Caminho de Acesso do Device, Usuario e Senha.
+
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/instancia_c9k.gif" width="700">
+</p>
+
+Pronto, device já instanciado, tudo no jeito? ainda estamos em processo de preparar o ambiente, e testar ele também faz parte, e para validar a conectividade, podemos utilizar uma ferramenta de acesso muito conhecida entre o povo de redes, é o famoso Putty, ele é um terminal de acesso que utiliza portas logica para comunicação com Servidores Linux ou equipamentos de infra *Router/ Switch, Firewall, Load Balancers*...
+
+Segue o link de Download, ele nem precisa ser instalado, ele é Portatil.
+
+ - Link: [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+Você escolhe a com base na versão do seu sistema, os de hoje em dia geralmente é de 64-bit, ao clicar, ele já baixa e está pronto para uso.
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/putty_page.png" width="700">
+</p>
+
+E essa é a interface dele:
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/int_putty.png" width="700">
 </p>
