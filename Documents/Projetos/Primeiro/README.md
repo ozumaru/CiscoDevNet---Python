@@ -27,8 +27,8 @@ E ao realizar o acesso, você ira clicar em "Launch Sandbox ↗" para ser direci
 
 Aqui já vemos uma grande quantidade de Devices e Plataformas disponiveis para serem utilizados, porem há alguns padrões para serem utilizados.
 Ai temos dois status:
-- 'Reservable': É preciso agendar para ser utilizado, acredito por ser uma plataforma que exija muito processamento de uma ambiente virtual, não está tão aberto assim para uso rapido, em alguns casos está até mesmo bloqueado para ser utilizado, pois já está em uso.
-- 'Always-On': Pode-se instanciar o device a qualquer momento, e pode programar o tempo que esse device vai permanecer ativo em seu usuario, o tempo padrão é de 2 dias.
+- '**Reservable**': É preciso agendar para ser utilizado, acredito por ser uma plataforma que exija muito processamento de uma ambiente virtual, não está tão aberto assim para uso rapido, em alguns casos está até mesmo bloqueado para ser utilizado, pois já está em uso.
+- '**Always-On**': Pode-se instanciar o device a qualquer momento, e pode programar o tempo que esse device vai permanecer ativo em seu usuario, o tempo padrão é de 2 dias.
 
 O que vamos utilizar aqui é o 'Catalyst 9000 Always-On', ai seguimos os passos abaixo:
 
@@ -37,7 +37,7 @@ Em "Labels" > Always On
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/always_on_gif.gif" width="500">
 </p>
 
-Após a filtragem, no device *Catalyst 9000 Always-On Sandbox*, Click em: "🚀 Launch" > "Review Summary" > "Launch Enviroment"
+Após a filtragem, no device **Catalyst 9000 Always-On Sandbox**, Click em: "🚀 Launch" > "Review Summary" > "Launch Enviroment"
 E em alguns minutos o seu device já está instanciado na plataforma pronto para uso com Usuario e senha que foram gerados para você.
 
 <p align="center"> 
@@ -50,7 +50,7 @@ E conforme abaixo, o device já pronto para uso, e na marcação em vermelho, co
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/instancia_c9k.gif" width="700">
 </p>
 
-Pronto, device já instanciado, tudo no jeito? ainda estamos em processo de preparar o ambiente, e testar ele também faz parte, e para validar a conectividade, podemos utilizar uma ferramenta de acesso muito conhecida entre o povo de redes, é o famoso Putty, ele é um terminal de acesso que utiliza portas logica para comunicação com Servidores Linux ou equipamentos de infra *Router/ Switch, Firewall, Load Balancers*...
+Pronto, device já instanciado, tudo no jeito? ainda estamos em processo de preparar o ambiente, e testar ele também faz parte, e para validar a conectividade, podemos utilizar uma ferramenta de acesso muito conhecida entre o povo de redes, é o famoso Putty, ele é um terminal de acesso que utiliza portas logica para comunicação com Servidores Linux ou equipamentos de infra **Router/ Switch, Firewall, Load Balancers**...
 
 Segue o link de Download, ele nem precisa ser instalado, ele é Portatil.
 
