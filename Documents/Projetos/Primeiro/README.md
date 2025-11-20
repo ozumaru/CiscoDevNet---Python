@@ -62,8 +62,8 @@ Você escolhe a com base na versão do seu sistema, os de hoje em dia geralmente
 </p>
 
 E essa é a interface dele:
-<p align="center"> 
-  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/int_putty.png" width="400">
+<p align="left"> 
+  <p align="left"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/int_putty.png" width="400">
 </p>    
 
 Para realizar o teste é simples, passe o mouse no hostname do site, e clica no quadrado a frente do nome que já copia, e colocamos o Hostname do device no Putty no espaço Host, já está na porta 22 de acesso SSH (Secure Shell), e clique em "Open".
@@ -98,4 +98,14 @@ Caso não retorna, é que o python não está instalado, então siga para a pagi
 - [Python Download](https://www.python.org/downloads/)
 <p align="left"> 
   <p align="left"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/python_download.gif" width="700">
+</p>
+
+Instalado o Python, caso não tenha, instale também o Visual Studio Code, já na pagina inicial mostra para fazer o Download.
+
+- [Visual Studio Code Download](https://code.visualstudio.com/)
+
+Após instalado essa duas ferramentas, vamos abrir o Visual Code, e vamos ativar a extensão do Python no Visual Code, conforme abaixo, no meu caso já está instalado.
+Clique **Install**
+<p align="left"> 
+  <p align="left"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/vs_code_Python.gif" width="700">
 </p>
