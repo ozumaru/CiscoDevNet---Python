@@ -8,8 +8,13 @@ E eu estou aqui para dar essa força, pois é compartilhando conhecimento que n�
 
 Dia 18/11/2025 eu ministrei uma aula de Python focado em Infraestrutura de Redes.
  - No Exemplo da atividade, buscamos fazer Boas Praticas em Python para Refatoração de Codigo, criando Classes e Dicionarios para serem reutilizados.
-    - Foi orientado como Manipular Textos em Python e suas estruturas: TUPLA, LISTA, DICIONARIO
-    - E também como Criar, fazer a Leitura e Manipular um dado do tipo JSON. 
+    Pontos que foram vistos:
+     - Preparando o Ambiente Virtual do Python (VENV) para instalação de dependencias.
+     - Principal Biblioteca utilizada: NETMIKO 
+     - Como Manipular Textos em Python e suas estruturas: TUPLA, LISTA, DICIONARIO
+      - Utilizado variações do 'SPLIT' para transformar uma 'STRING' em uma 'LISTA'
+      - Utilizado o FOR para varredura de dados nas listas
+     - Criar, fazer a Leitura e Manipular um dado do tipo JSON.
 
  - Foi utilizado como Ambiente de Teste o Cisco Sandbox para emular um Switch Catalyst 9K.
 
@@ -18,6 +23,4 @@ E agora eu vou iniciar aqui uma nota etapa para compartilhar mini projetos com e
 
 ### Referencia
 
-- [Cisco SandBox](https://developer.cisco.com/site/sandbox/){:target="_blank"}
-- <a href="https://developer.cisco.com/site/sandbox/" target="_blank">Cisco SandBox</a>
-- <a href="https://developer.cisco.com/site/sandbox/" target="_blank" rel="noopener noreferrer">Cisco SandBox</a>
+- [Cisco SandBox](https://developer.cisco.com/site/sandbox/)
