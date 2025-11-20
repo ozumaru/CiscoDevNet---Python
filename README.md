@@ -61,9 +61,9 @@ Eu começo essa primeira parte com:
 	- Então nessa parte trago tramento de CDP com saida em CSV de forma bem mais estruturada e mais amigavel de se entender.
 		- [4.3 - Coleta de CDP e criação de CSV com as informação estruturadas](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Material/4.3%20-%20Coleta%20de%20CDP%20e%20cria%C3%A7%C3%A3o%20de%20CSV%20com%20as%20informa%C3%A7%C3%A3o%20estruturadas.md)
 
-### 5° parte
-- Rotina de Backup em Linux - Em progresso
-
+# Novos Passos 
+Estou fazendo um novo conteudo sobre Mini-Projetos de Automação com Python para Infraestrutura, bora lá conhecer!!!
+- [Novo Projeto](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos)
 
 ## Referencial Bibliografico
  - Variaveis
