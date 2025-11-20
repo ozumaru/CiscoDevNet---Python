@@ -36,11 +36,13 @@ Segue essas duas Playlists:
 
 ⚠️ OBS: Tudo que for link que direcione para outro lugar a não ser internamente no GITHUB como os projetos abaixo, abra com o botão direito + nova aba, pois assim vai abrir uma nova aba e vai manter essa em aberto.
 
+#
 Onde você vai aprender o Basico sobre Algoritimo e Lógica Computacional
 - [ME SALVA](https://www.youtube.com/watch?v=ntBxoTSnfkA&list=PLf1lowbdbFIBoLeVGwkCYySkLS1lV3ixF)
-
+#
 Onde você vai aprender de forma FANTASTICA sobre Python Conceito por Conceito, tendo Diversos exercicios, com o Mestre Renomado: Gustavo Guanabara
 - [Curso em Video](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0&index=2)
+#
 
 Esses são meus dois pontos de referencia para começar nesse mundo de programação, e foi onde eu comecei, sou muito grato a eles.
 
