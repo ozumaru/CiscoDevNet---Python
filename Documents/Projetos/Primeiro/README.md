@@ -146,13 +146,15 @@ Nota-se que ao aplicar o comando que ele cria outros arquivos:
 Esse é o ambiente que o python cria para que isole os seus testes do ambiente de produção.
 
 Agora para entrar nele, você precisa executar o comando "**.\Scripts\activate**" pode ocorrer de aparece um erro de permissão mostrando o erro a baixo, para corrigir isso executar o comando a seguir:
-Caso erro ocorra, vai em Iniciar > Powershell (Abrir como Admininstrador) > executar o comando: Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+Caso erro ocorra, vai em Iniciar > Powershell (Abrir como Admininstrador) > executar o comando: **Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned**
 
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/erro.png" width="1000">
 </p>
 
 Mas caso não ocorra erro, ele tem que entrar nesse modo:
+Comando para Entrar: "**.\Scripts\activate**"
+Comando para Sair: "**deactivate**"
 <p align="center"> 
-  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/in_venv.gif" width="700">
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/in_out_venv.gif" width="700">
 </p>
