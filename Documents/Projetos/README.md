@@ -20,3 +20,4 @@ E agora eu vou iniciar aqui uma nota etapa para compartilhar mini projetos com e
 
 - [Cisco SandBox](https://developer.cisco.com/site/sandbox/){:target="_blank"}
 - <a href="https://developer.cisco.com/site/sandbox/" target="_blank">Cisco SandBox</a>
+- <a href="https://developer.cisco.com/site/sandbox/" target="_blank" rel="noopener noreferrer">Cisco SandBox</a>
