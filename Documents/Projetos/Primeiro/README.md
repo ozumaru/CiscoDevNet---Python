@@ -16,9 +16,20 @@ Para que você consiga acessar o ambiente, você precisa primeiro fazer um cadas
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/inicialSandBox.png" width="700">
 </p>
 
-E ao realizar o acesso, você ira clicar em "Launch Sandbox ↗" para ser direcionado ao Sandbox.
+E ao realizar o acesso, você ira clicar em "Launch Sandbox ↗" para ser direcionado ao Sandbox, bem no centro da pagina em AZUL.
 
 <p align="center">
-  <h1><p align="center">  Cisco Developer Sandbox!🚀</p></h1>
+  <h1><p align="center">  Area da Caixa de Areia 'Sandbox'!🛝</p></h1>
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/Sandbox.png" width="700">
+</p>
+
+Aqui já vemos uma grande quantidade de Devices e Plataformas disponiveis para serem utilizados, porem há alguns padrões para serem utilizados.
+Ai temos dois status:
+- 'Reservable': É preciso agendar para ser utilizado, acredito por ser uma plataforma que exija muito processamento de uma ambiente virtual, não está tão aberto assim para uso rapido, em alguns casos está até mesmo bloqueado para ser utilizado, pois já está em uso.
+- 'Always-On': Pode-se instanciar o device a qualquer momento, e pode programar o tempo que esse device vai permanecer ativo em seu usuario, o tempo padrão é de 2 dias.
+
+O que vamos utilizar aqui é o 'Catalyst 9000 Always-On', ai seguimos os passos abaixo:
+
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/always_on.png" width="700">
 </p>
