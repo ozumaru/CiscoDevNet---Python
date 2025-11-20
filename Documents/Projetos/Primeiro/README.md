@@ -30,6 +30,9 @@ Ai temos dois status:
 
 O que vamos utilizar aqui é o 'Catalyst 9000 Always-On', ai seguimos os passos abaixo:
 
+Em "Labels" > Always On
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/always_on_gif.gif" width="500">
 </p>
+
+Após a filtragem 
