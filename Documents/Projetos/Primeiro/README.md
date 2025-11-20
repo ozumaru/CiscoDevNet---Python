@@ -44,7 +44,6 @@ E em alguns minutos o seu device já está instanciado na plataforma pronto para
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/start_c9k.gif" width="700">
 </p>
 
-
 E conforme abaixo, o device já pronto para uso, e na marcação em vermelho, consta Caminho de Acesso do Device, Usuario e Senha.
 
 <p align="center"> 
@@ -64,5 +63,11 @@ Você escolhe a com base na versão do seu sistema, os de hoje em dia geralmente
 
 E essa é a interface dele:
 <p align="center"> 
-  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/int_putty.png" width="700">
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/int_putty.png" width="500">
+</p>
+
+Para realizar o teste é simples, passe o mouse no hostname do site, e clica no quadrado a frente do nome que já copia, e colocamos o Hostname do device no Putty no espaço Host, já está na porta 22 de acesso SSH (Secure Shell), e clique em "Open".
+Após a abertura do Terminal, copiar o Usuario e colar no terminal, Enter, logo em seguida faça o mesmo com a senha conforme abaixo:
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/access_device.png" width="700">
 </p>
