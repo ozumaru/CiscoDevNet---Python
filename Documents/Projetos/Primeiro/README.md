@@ -149,7 +149,7 @@ Agora para entrar nele, você precisa executar o comando "**.\Scripts\activate**
 Caso erro ocorra, vai em Iniciar > Powershell (Abrir como Admininstrador) > executar o comando: Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 <p align="center"> 
-  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/erro.png" width="700">
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/erro.png" width="1000">
 </p>
 
 Mas caso não ocorra erro, ele tem que entrar nesse modo:
