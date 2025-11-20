@@ -18,4 +18,4 @@ E agora eu vou iniciar aqui uma nota etapa para compartilhar mini projetos com e
 
 ### Referencia
 
-- [Cisco SandBox](https://developer.cisco.com/site/sandbox/)
+- [Cisco SandBox](https://developer.cisco.com/site/sandbox/){:target="_blank"}
