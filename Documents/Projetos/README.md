@@ -47,7 +47,7 @@ Esses são meus dois pontos de referencia para começar nesse mundo de programa�
 Antes de seguir para o primeiro projeto, eu preciso informar que aqui eu vou publicar o conteudo já em seu estato final, e aos poucos (conforme vou aprendendo também) eu vou publicando o video, mostrando cada etapa até chegar naquele resultado.
 
 # Primeiro
-### 🧐 BACKUP/INTERFACE/VLAN
+### 🥸 BACKUP/INTERFACE/VLAN
 
 Nesse projeto primeiro projeto, alem dos 3 desafios principais que são: Rotina de BACKUP, Documentação de Status de Interface, Aplicação de Configuração de Vlans
 Vamos focar também na parte de Refatoração do Codigo, já que teremos algumas estruturas que iram se repetir algumas vezes, vamos criar Funções para reutilização desses Algoritimos, e quando tivermos mais funções, vamos criar uma Classe para agrupar essas funções de acordo com cada função.
