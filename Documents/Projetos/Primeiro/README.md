@@ -79,6 +79,7 @@ Antes de tudo, vamos primeiro criar a estrutura de pastas das tarefas que vamos 
 Abaixo a Arvore de diretórios a serem utilizados:
 ```bash
 |-- Primeiro					⇐ Diretorio Raiz
+|   |-- Virtual_Enviroment		⇐ Sub_Diretorio de Ambiente Virtual
 |   |-- Instance				⇐ Sub_Diretorio
 |   |   `-- instances.py 		⇐ Arquivo Python
 |   |-- BACKUP					⇐ Sub_Diretorio
@@ -110,7 +111,9 @@ Clique **Install**
   <p align="left"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/vs_code_Python.gif" width="700">
 </p>
 
-## Python VENV
+<p align="center">
+  <h2><p align="center">Python VENV</p></h2>
+</p>
 Porque é importante que o python esteja acima da versão 3.3, pois já possui Nativamente uma função chamada VENV (Virtual Environment), e porque isso é importante.
 
 Demos o exemplo de que, você está em um ambiente de produção e precisa testar uma Biblioteca especifica do Python, porem, outros funções internas do sistema já utilizam algumas bibliotecas na versão em que estão, caso você vá diretamente e instale uma biblioteca direto no ambiente de produção, pode parar outras aplicações de funcionar.
@@ -122,4 +125,20 @@ E conforme criamos a estrutura de diretorios acima, vamos iniciar agora o passo-
 Para começar, no Visual Code, vamos abrir o Diretorio "Primeiro"
 <p align="left"> 
   <p align="left"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/dir_primeiro.gif" width="700">
+</p>
+
+Vamos abrir o terminal e ai vamos começar com uns comandos, a principio, para Criar o VENV, Entrar no Ambiente, e Sair do Ambiente.
+Em alguns casos pode ocorrer um erro, mas também vou explicar como passar por eles para seguir com o Lab.
+
+Primeira parte: Abrir o terminal, e executar o comando "**python -m venv .**"
+Ali tem um ponto mesmo no Comando, e para que ele serve?
+É utilizado dessa forma para usar o nome da pasta como nome do ambiente, você tem 3 modos:
+ - 1° python -m venv                       |Nesse modo o Ambiente vai ser criado como **venv** mesmo
+ - 2° python -m venv .                     |Nesse modo vai usar o nome do diretorio Atual/Current que o terminal está aberto
+ - 3° python -m venv <NOME_DO_AMBIENTE>    |Aqui você pode alterar o nome do ambiente como desejar
+
+Ao abrir o terminal, faça o comando "cd Virtual_Enviroment" para entrar no diretorio que vai criar o ambiente 
+Nota-se que ao aplicar o comando que ele crie outros arquivos: lib
+<p align="left"> 
+  <p align="left"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/venv.gif" width="700">
 </p>
