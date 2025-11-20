@@ -20,5 +20,5 @@ E ao realizar o acesso, você ira clicar em "Launch Sandbox ↗" para ser direci
 
 <p align="center">
   <h1><p align="center">  Cisco Developer Sandbox!🚀</p></h1>
-  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/SandBox.png" width="700">
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/Sandbox.png" width="700">
 </p>
