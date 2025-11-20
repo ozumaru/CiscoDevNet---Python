@@ -78,19 +78,20 @@ Antes de tudo, vamos primeiro criar a estrutura de pastas das tarefas que vamos 
 
 Abaixo a Arvore de diretórios a serem utilizados:
 ```bash
-|-- Primeiro					⇐ Diretorio Raiz
-|   |-- Virtual_Enviroment		⇐ Sub_Diretorio de Ambiente Virtual
-|   |-- Instance				⇐ Sub_Diretorio
-|   |   `-- instances.py 		⇐ Arquivo Python
-|   |-- BACKUP					⇐ Sub_Diretorio
-|   |   |-- Data				⇐ Sub_Diretorio de Backup
-|   |   `-- main_backup.py		⇐ Arquivo Python
-|   |-- INTERFACE				⇐ Sub_Diretorio
-|   |   |-- Data				⇐ Sub_Diretorio de Interface
-|   |   `-- main_interface.py	⇐ Arquivo Python
-|   `-- VLAN					⇐ Sub_Diretorio
-|       |-- Data				⇐ Sub_Diretorio de Vlan
-|       `-- vlan.py				⇐ Arquivo Python
+|-- Primeiro						⇐ Diretorio Raiz
+|   |-- Automation					⇐ Sub_Diretorio De Atividades
+|   |   |-- Instance				⇐ Sub_Diretorio
+|   |   |   `-- instances.py		⇐ Arquivo Python que contem Classe e Funções
+|   |   |-- BACKUP					⇐ Sub_Diretorio
+|   |   |   |-- Data				⇐ Sub_Diretoriode Backup
+|   |   |   `-- main_backup.py		⇐ Arquivo Python para a automação de Backup
+|   |   |-- INTERFACE				⇐ Sub_Diretorio
+|   |   |   |-- Data				⇐ Sub_Diretoriode Interface
+|   |   |   `-- main_interface.py	⇐ Arquivo Python para a automação de Interface
+|   |   `-- VLAN					⇐ Sub_Diretorio
+|   |       |-- Data				⇐ Sub_Diretoriode Vlan
+|   |       `-- vlan.py				⇐ Arquivo Python para a automação de Vlan
+|   `-- Virtual_Enviroment			⇐ Sub_Diretorio onde vai ser instalado o Ambiente Virtual
 ```
 
 Com tudo isso já feito, vamos começar com Python e Visual Code, para isso temos que ter o Python acima do 3.3 instalado, e para verificar isso, vai em iniciar > cmd > e digite o comando **python --version**
@@ -123,8 +124,8 @@ Para evitar isso, é possivel criar Ambientes Virtuais para baixar as biblioteca
 E conforme criamos a estrutura de diretorios acima, vamos iniciar agora o passo-a-passo para ativar o ambiente, entrar nele e vamos aprender a sair dele quando terminar a tarefa.
 
 Para começar, no Visual Code, vamos abrir o Diretorio "Primeiro"
-<p align="left"> 
-  <p align="left"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/dir_primeiro.gif" width="700">
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/dir_primeiro.gif" width="700">
 </p>
 
 Vamos abrir o terminal e ai vamos começar com uns comandos, a principio, para Criar o VENV, Entrar no Ambiente, e Sair do Ambiente.
