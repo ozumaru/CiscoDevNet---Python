@@ -154,5 +154,5 @@ Caso erro ocorra, vai em Iniciar > Powershell (Abrir como Admininstrador) > exec
 
 Mas caso não ocorra erro, ele tem que entrar nesse modo:
 <p align="center"> 
-  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/in_venv.png" width="700">
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/in_venv.gif" width="700">
 </p>
