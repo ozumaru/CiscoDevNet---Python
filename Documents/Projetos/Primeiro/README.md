@@ -76,18 +76,26 @@ Bom, device está acessivel, o ambiente já ta pronto? ainda não... vamos agora
 
 Antes de tudo, vamos primeiro criar a estrutura de pastas das tarefas que vamos executar, e também já deixar pronto a pasta de "Instancias de Dependencias" que vamos criar.
 
-Abaixo a Arvore de diretórios a serem utilizados
+Abaixo a Arvore de diretórios a serem utilizados:
 ```bash
-|-- Primeiro					<- Diretorio Raiz
-|   |-- Instance				<- Sub_Diretorio
-|   |   `-- instances.py 		<- Arquivo Python
-|   |-- BACKUP					<- Sub_Diretorio
-|   |   |-- Data				<- Sub_Diretorio de Backup
-|   |   `-- main_backup.py		<- Arquivo Python
-|   |-- INTERFACE				<- Sub_Diretorio
-|   |   |-- Data				<- Sub_Diretorio de Interface
-|   |   `-- main_interface.py	<- Arquivo Python
-|   `-- VLAN					<- Sub_Diretorio
-|       |-- Data				<- Sub_Diretorio de Vlan
-|       `-- vlan.py				<- Arquivo Python
+|-- Primeiro					⇐ Diretorio Raiz
+|   |-- Instance				⇐ Sub_Diretorio
+|   |   `-- instances.py 		⇐ Arquivo Python
+|   |-- BACKUP					⇐ Sub_Diretorio
+|   |   |-- Data				⇐ Sub_Diretorio de Backup
+|   |   `-- main_backup.py		⇐ Arquivo Python
+|   |-- INTERFACE				⇐ Sub_Diretorio
+|   |   |-- Data				⇐ Sub_Diretorio de Interface
+|   |   `-- main_interface.py	⇐ Arquivo Python
+|   `-- VLAN					⇐ Sub_Diretorio
+|       |-- Data				⇐ Sub_Diretorio de Vlan
+|       `-- vlan.py				⇐ Arquivo Python
 ```
+
+Com tudo isso já feito, vamos começar com Python e Visual Code, para isso temos que ter o Python acima do 3.3 instalado, e para verificar isso, vai em iniciar > cmd > e digite o comando **python --version**
+Caso não retorna, é que o python não está instalado, então siga para a pagina abaixo de download do Python: 
+
+- [Python Download](https://www.python.org/downloads/)
+<p align="left"> 
+  <p align="left"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/python_download.gif" width="700">
+</p>
