@@ -54,6 +54,3 @@ Vamos focar também na parte de Refatoração do Codigo, já que teremos algumas
 
 - [1° - BACKUP/ INTERFACE/ VLAN](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro)
 
-### Referencia
-
-- [Cisco SandBox](https://developer.cisco.com/site/sandbox/)
