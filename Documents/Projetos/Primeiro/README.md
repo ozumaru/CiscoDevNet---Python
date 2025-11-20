@@ -30,7 +30,7 @@ Ai temos dois status:
 - '**Reservable**': É preciso agendar para ser utilizado, acredito por ser uma plataforma que exija muito processamento de uma ambiente virtual, não está tão aberto assim para uso rapido, em alguns casos está até mesmo bloqueado para ser utilizado, pois já está em uso.
 - '**Always-On**': Pode-se instanciar o device a qualquer momento, e pode programar o tempo que esse device vai permanecer ativo em seu usuario, o tempo padrão é de 2 dias.
 
-O que vamos utilizar aqui é o 'Catalyst 9000 Always-On', ai seguimos os passos abaixo:
+O que vamos utilizar aqui é o **Catalyst 9000 Always-On**, ai seguimos os passos abaixo:
 
 Em "Labels" > Always On
 <p align="center"> 
@@ -71,3 +71,9 @@ Após a abertura do Terminal, copiar o Usuario e colar no terminal, Enter, logo 
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/access_device.gif" width="700">
 </p>
+
+Bom, device está acessivel, o ambiente já ta pronto? ainda não... vamos agora iniciar a preparação do ambiente Python.
+
+Antes de tudo, vamos primeiro criar a estrutura de pastas das tarefas que vamos executar, e também já deixar pronto a pasta de "Instancias de Dependencias" que vamos criar.
+
+Abaixo a Arvore de diretórios a serem utilizados
