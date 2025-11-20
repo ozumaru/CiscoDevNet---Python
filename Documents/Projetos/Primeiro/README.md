@@ -158,3 +158,22 @@ Comando para Sair: "**deactivate**"
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/in_out_venv.gif" width="700">
 </p>
+
+<p align="center">
+  <h2><p align="center">NETMIKO</p></h2>
+</p>
+
+Passo Final para que tenhamos tudo pronto para seguir para o nosso Lab sensacional, vamos instalar uma biblioteca chamada NETMIKO, e pra que ela serve? onde vive? o que come?
+Essa incrivel biblioteca é o que chamamos de Multi-Vendor, então com ela é possivel acessar muitos fabricantes de equipamento, seja Cisco, Fortinet, Aruba, Huawei... um monte.
+E a forma como ela acessa é o mesmo de estarmos acessando uma CLI (Command Line Interface) só que por Python, então enviamos um comando, e o python nos retorna a informação, e nós tratamos ela como bem quisermos, seja para:
+ - Fazer Backup 
+ - Criar Relatórios
+ - Aplicar configuração
+ 
+E estamos falando que ela pode realizar isso em grande Escala, em uma lista de devices, e é nesse momento que vem o dizer: "Com grandes Poderes, vem grandes Responsabilidades", então use para o BEM.
+E Onde e Como instalamos ela, Dentro do Ambiente virtual com o comando: **pip install netmiko**
+<p align="center"> 
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/netmiko.gif" width="700">
+</p>
+
+Repare que eu expandi o diretorio "Lib\site-packages" e nesse local é onde todas as bibliotecas serão instaladas dentro do ambiente, e veja que assim que iniciamos a instalação do Netmiko, é criado um monte de dependencias para o funcionamento dessa ferramenta, por isso se é criando um ambiente virtual, para não bagunçar a dependencia de outras aplicações que já existente.
