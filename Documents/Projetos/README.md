@@ -1,6 +1,11 @@
-# Projetos de Automação para Infra
+# Projetos de Automação para Infraestrutura de Redes
 
 Nesse novo topico, eu me inspirei graças a uma Iniciativa da Cisco para Mulheres chamado Women Rock IT (WRIT), onde tem-se o intuito de auxiliar elas a ter um conhecimento além focado na tecnologia ou até mesmo realizar a migração de area.
+
+<p align="center">
+  <h2><p align="center"> 🤖 Women Rock IT (WRIT) 🚀 </p></h2>
+  <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/writ.png" width="700">
+</p>
 
 E eu estou aqui para dar essa força, pois é compartilhando conhecimento que nós alcançamos maiores objetivos, isso tanto vai ajudar a elas e a outras pessoas, quando a me ajudar a me auto-desafiar para Mostrar o que tenho de conhecimento, e aprender mais para retornar mais conhecimento.
 

@@ -52,7 +52,7 @@ E conforme abaixo, o device já pronto para uso, e na marcação em vermelho, co
 
 Pronto, device já instanciado, tudo no jeito? ainda estamos em processo de preparar o ambiente, e testar ele também faz parte, e para validar a conectividade, podemos utilizar uma ferramenta de acesso muito conhecida entre o povo de redes, é o famoso Putty, ele é um terminal de acesso que utiliza portas logica para comunicação com Servidores Linux ou equipamentos de infra **Router/ Switch, Firewall, Load Balancers**...
 
-Segue o link de Download, ele nem precisa ser instalado, ele é Portatil.
+Segue o link de Download, nem precisa ser instalado, pois é Portatil.
 
  - Link: [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
