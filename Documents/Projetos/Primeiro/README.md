@@ -77,3 +77,17 @@ Bom, device está acessivel, o ambiente já ta pronto? ainda não... vamos agora
 Antes de tudo, vamos primeiro criar a estrutura de pastas das tarefas que vamos executar, e também já deixar pronto a pasta de "Instancias de Dependencias" que vamos criar.
 
 Abaixo a Arvore de diretórios a serem utilizados
+```bash
+|-- Primeiro					<- Diretorio Raiz
+|   |-- Instance				<- Sub_Diretorio
+|   |   `-- instances.py 		<- Arquivo Python
+|   |-- BACKUP					<- Sub_Diretorio
+|   |   |-- Data				<- Sub_Diretorio de Backup
+|   |   `-- main_backup.py		<- Arquivo Python
+|   |-- INTERFACE				<- Sub_Diretorio
+|   |   |-- Data				<- Sub_Diretorio de Interface
+|   |   `-- main_interface.py	<- Arquivo Python
+|   `-- VLAN					<- Sub_Diretorio
+|       |-- Data				<- Sub_Diretorio de Vlan
+|       `-- vlan.py				<- Arquivo Python
+```
