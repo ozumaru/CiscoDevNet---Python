@@ -7,7 +7,7 @@ Nesse novo topico, eu me inspirei graças a uma Iniciativa da Cisco para Mulhere
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/writ.png" width="700">
 </p>
 
-E eu estou aqui para dar essa força, pois é compartilhando conhecimento que nós alcançamos maiores objetivos, isso tanto vai ajudar a elas e a outras pessoas, quando a me ajudar a me auto-desafiar para Mostrar o que tenho de conhecimento, e aprender mais para retornar mais conhecimento.
+E eu estou aqui para dar essa força, pois é compartilhando conhecimento que nós alcançamos maiores objetivos, isso tanto vai ajudar a elas e a outras pessoas, quanto a me auto-desafiar para mostrar o que tenho de conhecimento, e aprender mais para retornar mais conhecimento.
 
 Dia 18/11/2025 eu ministrei uma aula de Python focado em Infraestrutura de Redes.
  - No Exemplo da atividade, buscamos fazer Boas Praticas em Python para Refatoração de Codigo, criando Classes e Dicionarios para serem reutilizados.
