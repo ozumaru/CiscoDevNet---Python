@@ -94,7 +94,10 @@ Abaixo a Arvore de diretórios a serem utilizados:
 |   |       `-- main_vlan.py		⇐ Arquivo Python para a automação de Vlan
 ```
 
-Com tudo isso já feito, vamos começar com Python e Visual Code, para isso temos que ter o Python acima do 3.3 instalado, e para verificar isso, vai em iniciar > cmd > e digite o comando **python --version**
+Com tudo isso já feito, vamos começar com Python e Visual Code, para isso temos que ter o Python acima do 3.3 instalado, e para verificar isso, vai em iniciar > cmd > e digite o comando:
+```bash
+ **python --version**
+```
 Caso não retorna, é que o python não está instalado, então siga para a pagina abaixo de download do Python: 
 
 - [Python Download](https://www.python.org/downloads/)
@@ -132,15 +135,23 @@ Para começar, no Visual Code, vamos abrir o Diretorio "Primeiro"
 Vamos abrir o terminal e ai vamos começar com uns comandos, a principio, para Criar o VENV, Entrar no Ambiente, e Sair do Ambiente.
 Em alguns casos pode ocorrer um erro, mas também vou explicar como passar por eles para seguir com o Lab.
 
-Primeira parte: Abrir o terminal, e executar o comando "**python -m venv .**"
+Primeira parte: Abrir o terminal, e executar o comando:
+```python
+    python -m venv .
+```
+
 Ali tem um ponto mesmo no Comando, e para que ele serve?
 É utilizado dessa forma para usar o nome da pasta como nome do ambiente, você tem 2 modos:
  
  - Nesse modo vai usar o nome do diretorio Atual/Current que o terminal está aberto
-    - **python -m venv .**              
+```bash
+    python -m venv .
+```
 
  - Aqui você pode alterar o nome do ambiente como desejar
-    - **python -m venv <NOME_DO_AMBIENTE>**    
+```bash
+    python -m venv <NOME_DO_AMBIENTE>
+```
 
 Ao abrir o terminal, permaneça no diretorio que vai criar o ambiente, que nesse caso é no diretorio "Primeiro", o Diretorio Automação é onde será feito as tarefas, mas é importante que o diretorio Automação esteja no mesmo diretorio em que o ambiente virtual sera criado. 
 Nota-se que ao aplicar o comando que ele cria outros arquivos:
