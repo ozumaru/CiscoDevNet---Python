@@ -13,7 +13,7 @@ list_host = open("..\hosts")
 
 # Loop para cada host na lista
 for host in list_host: 
-    # Definindo lista de comandos
+    # Definindo lista de comando
     commando = ["show running-config"]
 
     # Realizando a coleta do running-config
