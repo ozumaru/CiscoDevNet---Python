@@ -96,7 +96,7 @@ Abaixo a Arvore de diretórios a serem utilizados:
 
 Com tudo isso já feito, vamos começar com Python e Visual Code, para isso temos que ter o Python acima do 3.3 instalado, e para verificar isso, vai em iniciar > cmd > e digite o comando:
 ```bash
- **python --version**
+python --version
 ```
 Caso não retorna, é que o python não está instalado, então siga para a pagina abaixo de download do Python: 
 
@@ -136,8 +136,8 @@ Vamos abrir o terminal e ai vamos começar com uns comandos, a principio, para C
 Em alguns casos pode ocorrer um erro, mas também vou explicar como passar por eles para seguir com o Lab.
 
 Primeira parte: Abrir o terminal, e executar o comando:
-```python
-    python -m venv .
+```bash
+python -m venv .
 ```
 
 Ali tem um ponto mesmo no Comando, e para que ele serve?
@@ -145,12 +145,12 @@ Ali tem um ponto mesmo no Comando, e para que ele serve?
  
  - Nesse modo vai usar o nome do diretorio Atual/Current que o terminal está aberto
 ```bash
-    python -m venv .
+python -m venv .
 ```
 
  - Aqui você pode alterar o nome do ambiente como desejar
 ```bash
-    python -m venv <NOME_DO_AMBIENTE>
+python -m venv <NOME_DO_AMBIENTE>
 ```
 
 Ao abrir o terminal, permaneça no diretorio que vai criar o ambiente, que nesse caso é no diretorio "Primeiro", o Diretorio Automação é onde será feito as tarefas, mas é importante que o diretorio Automação esteja no mesmo diretorio em que o ambiente virtual sera criado. 
@@ -162,15 +162,24 @@ Nota-se que ao aplicar o comando que ele cria outros arquivos:
 Esse é o ambiente que o python cria para que isole os seus testes do ambiente de produção.
 
 Agora para entrar nele, você precisa executar o comando "**.\Scripts\activate**" pode ocorrer de aparece um erro de permissão mostrando o erro a baixo, para corrigir isso executar o comando a seguir:
-Caso erro ocorra, vai em Iniciar > Powershell (Abrir como Admininstrador) > executar o comando: **Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned**
+Caso erro ocorra, vai em Iniciar > Powershell (Abrir como Admininstrador) > executar o comando: 
+```bash
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned**
+```
 
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/erro.png" width="1000">
 </p>
 
 Mas caso não ocorra erro, ele tem que entrar nesse modo:
-- Comando para Entrar: "**.\Scripts\activate**"
-- Comando para Sair: "**deactivate**"
+- Comando para Entrar: 
+```bash
+.\Scripts\activate
+```
+- Comando para Sair: 
+```bash
+deactivate
+```
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/in_out_venv.gif" width="700">
 </p>
@@ -188,7 +197,11 @@ E a forma como ela acessa é o mesmo de estarmos acessando uma CLI (Command Line
  - Aplicar configuração
  
 E estamos falando que ela pode realizar isso em grande Escala, em uma lista de devices, e é nesse momento que vem o dizer: "Com grandes Poderes, vem grandes Responsabilidades", então use para o BEM.
-E Onde e Como instalamos ela, Dentro do Ambiente virtual com o comando: **pip install netmiko**
+E Onde e Como instalamos ela, Dentro do Ambiente virtual com o comando: 
+```bash
+pip install netmiko**
+```
+
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/netmiko.gif" width="700">
 </p>
