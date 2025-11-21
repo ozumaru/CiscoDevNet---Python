@@ -78,10 +78,11 @@ Antes de tudo, vamos primeiro criar a estrutura de pastas das tarefas que vamos 
 
 Abaixo a Arvore de diretórios a serem utilizados:
 ```bash
-|-- Primeiro						⇐ Diretorio Raiz
+|-- Ambiente						⇐ Diretorio Raiz
 |   |-- Automation					⇐ Sub_Diretorio De Atividades
 |   |   |-- Instance				⇐ Sub_Diretorio
 |   |   |   `-- instances.py		⇐ Arquivo Python que contem Classe e Funções
+|   |   |   `-- credentials.py		⇐ Arquivo que contem dados de Credenciais
 |   |   |-- BACKUP					⇐ Sub_Diretorio
 |   |   |   |-- Data				⇐ Sub_Diretoriode Backup
 |   |   |   `-- main_backup.py		⇐ Arquivo Python para a automação de Backup
@@ -90,8 +91,7 @@ Abaixo a Arvore de diretórios a serem utilizados:
 |   |   |   `-- main_interface.py	⇐ Arquivo Python para a automação de Interface
 |   |   `-- VLAN					⇐ Sub_Diretorio
 |   |       |-- Data				⇐ Sub_Diretoriode Vlan
-|   |       `-- vlan.py				⇐ Arquivo Python para a automação de Vlan
-|   `-- Virtual_Enviroment			⇐ Sub_Diretorio onde vai ser instalado o Ambiente Virtual
+|   |       `-- main_vlan.py		⇐ Arquivo Python para a automação de Vlan
 ```
 
 Com tudo isso já feito, vamos começar com Python e Visual Code, para isso temos que ter o Python acima do 3.3 instalado, e para verificar isso, vai em iniciar > cmd > e digite o comando **python --version**
