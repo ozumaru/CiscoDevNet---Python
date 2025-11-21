@@ -134,12 +134,11 @@ Em alguns casos pode ocorrer um erro, mas também vou explicar como passar por e
 
 Primeira parte: Abrir o terminal, e executar o comando "**python -m venv .**"
 Ali tem um ponto mesmo no Comando, e para que ele serve?
-É utilizado dessa forma para usar o nome da pasta como nome do ambiente, você tem 3 modos:
- - 1° python -m venv                       |Nesse modo o Ambiente vai ser criado como **venv** mesmo
- - 2° python -m venv .                     |Nesse modo vai usar o nome do diretorio Atual/Current que o terminal está aberto
- - 3° python -m venv <NOME_DO_AMBIENTE>    |Aqui você pode alterar o nome do ambiente como desejar
+É utilizado dessa forma para usar o nome da pasta como nome do ambiente, você tem 2 modos:
+ - 1° python -m venv .                     |Nesse modo vai usar o nome do diretorio Atual/Current que o terminal está aberto
+ - 2° python -m venv <NOME_DO_AMBIENTE>    |Aqui você pode alterar o nome do ambiente como desejar
 
-Ao abrir o terminal, faça o comando "cd Virtual_Enviroment" para entrar no diretorio que vai criar o ambiente 
+Ao abrir o terminal, permaneça no diretorio que vai criar o ambiente, que nesse caso é no diretorio "Primeiro", o Diretorio Automação é onde será feito as tarefas, mas é importante que o diretorio Automação esteja no mesmo diretorio em que o ambiente virtual sera criado. 
 Nota-se que ao aplicar o comando que ele cria outros arquivos:
 <p align="center"> 
   <p align="center"> <img src="https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/img/venv.gif" width="700">
