@@ -211,10 +211,10 @@ Repare que eu expandi o diretorio "Lib\site-packages" e nesse local é onde toda
 A partir de agora, vamos nos digirir para o diretorio "Automation" para seguir com a criação dos projetos, lembrando que, inicialmente eu vou disponibilizar eles na versão final, vou comentar o que cada etapa está sendo feita, e vou produzir videos explicando como foi o meu raciocinio para alcaçar esse objetivo.
 
 A partir de agora temos 2 caminhos:
- - 1) Esse eu mostro passo a passo inicial de como utilizar algumas ferramentas do Python para criar pastas, arquivo, e manipulações iniciais aos devices de rede
+ - 1° Esse eu mostro passo a passo inicial de como utilizar algumas ferramentas do Python para criar pastas, arquivo, e manipulações iniciais aos devices de rede
     - [Python para Network](https://github.com/ozumaru/CiscoDevNet---Python)
 
- - 2) Esse eu vou criando projetos e publicando eles já em estado final, mas tenho o propósito de criar videos para mostrar como tive esse raciocinio para checar até esse modelo final, ele começou graças a um voluntáriado que faço parte da Cisco para Women Rock IT (WRIT), vamos lá, eu explico melhor!
+ - 2° Esse eu vou criando projetos e publicando eles já em estado final, mas tenho o propósito de criar videos para mostrar como tive esse raciocinio para checar até esse modelo final, ele começou graças a um voluntáriado que faço parte da Cisco para Women Rock IT (WRIT), vamos lá, eu explico melhor!
     - [Projetos](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos)
 
 <p align="center">
