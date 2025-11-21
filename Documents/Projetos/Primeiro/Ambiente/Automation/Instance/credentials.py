@@ -1,0 +1,1 @@
+device_info = ('cisco_ios', 'seu_usuario', 'sua_senha')
