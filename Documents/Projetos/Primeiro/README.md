@@ -164,7 +164,7 @@ Esse é o ambiente que o python cria para que isole os seus testes do ambiente d
 Agora para entrar nele, você precisa executar o comando "**.\Scripts\activate**" pode ocorrer de aparece um erro de permissão mostrando o erro a baixo, para corrigir isso executar o comando a seguir:
 Caso erro ocorra, vai em Iniciar > Powershell (Abrir como Admininstrador) > executar o comando: 
 ```bash
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned**
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
 <p align="center"> 
@@ -199,7 +199,7 @@ E a forma como ela acessa é o mesmo de estarmos acessando uma CLI (Command Line
 E estamos falando que ela pode realizar isso em grande Escala, em uma lista de devices, e é nesse momento que vem o dizer: "Com grandes Poderes, vem grandes Responsabilidades", então use para o BEM.
 E Onde e Como instalamos ela, Dentro do Ambiente virtual com o comando: 
 ```bash
-pip install netmiko**
+pip install netmiko
 ```
 
 <p align="center"> 
