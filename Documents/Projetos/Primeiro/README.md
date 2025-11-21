@@ -166,6 +166,7 @@ Mas caso não ocorra erro, ele tem que entrar nesse modo:
 </p>
 
 Passo Final para que tenhamos tudo pronto para seguir para o nosso Lab sensacional, vamos instalar uma biblioteca chamada NETMIKO, e pra que ela serve? onde vive? o que come?
+
 Essa incrivel biblioteca é o que chamamos de Multi-Vendor, então com ela é possivel acessar muitos fabricantes de equipamento, seja Cisco, Fortinet, Aruba, Huawei... um monte.
 E a forma como ela acessa é o mesmo de estarmos acessando uma CLI (Command Line Interface) só que por Python, então enviamos um comando, e o python nos retorna a informação, e nós tratamos ela como bem quisermos, seja para:
  - Fazer Backup 
