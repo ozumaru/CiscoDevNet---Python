@@ -34,17 +34,8 @@ for host in list_host:
 
     # Tratando coleta de status de interface
     for interface in lista_cisco:
-        # Condicional para tratar apenas: GigabitEthernet
-        if interface.startswith("Gigabit"):
-            get_interface = default.get_interface_function(get_interface, interface)
-
-        # Condicional para tratar apenas: Loopback
-        elif interface.startswith("Loop"):
-            get_interface = default.get_interface_function(get_interface, interface)
-            
-        # Condicional para tratar apenas: Virtual
-        elif interface.startswith("Virtual"):
-            get_interface = default.get_interface_function(get_interface, interface)
+        # Tratando linhas de interfaces: GigabitEthernet, FastEthernet, etc
+        get_interface = default.get_interface_function(get_interface, interface) 
 
     # Criando dicionário com hostname e suas interfaces
     hostname_interface[hostname] = get_interface 
