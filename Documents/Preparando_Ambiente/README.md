@@ -69,7 +69,9 @@ Após a abertura do Terminal, copiar o Usuario e colar no terminal, Enter, logo 
 
 Bom, device está acessivel, o ambiente já ta pronto? ainda não... vamos agora iniciar a preparação do ambiente Python.
 
-Antes de tudo, vamos primeiro criar a estrutura de pastas das tarefas que vamos executar, e também já deixar pronto a pasta de "Instancias de Dependencias" que vamos criar.
+Antes de tudo, vamos primeiro criar a estrutura de pastas das tarefas, é sempre bom preparar o ambiente para nos auxiliar no que vamos fazer, e o exemplo abaixo é o exemplo da tarefa de mini_projetos:
+
+- [Primeiro Projeto](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro)
 
 Abaixo a Arvore de diretórios a serem utilizados:
 ```bash
