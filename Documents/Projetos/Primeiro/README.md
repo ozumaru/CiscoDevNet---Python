@@ -115,9 +115,10 @@ Clique **Install**
 <p align="center">
   <h2><p align="center">Python VENV</p></h2>
 </p>
-Porque é importante que o python esteja acima da versão 3.3, pois já possui Nativamente uma função chamada VENV (Virtual Environment), e porque isso é importante.
+Porque é importante que o python esteja acima da versão 3.3, pois já possui Nativamente uma função chamada VENV (Virtual Environment).
 
-Demos o exemplo de que, você está em um ambiente de produção e precisa testar uma Biblioteca especifica do Python, porem, outros funções internas do sistema já utilizam algumas bibliotecas na versão em que estão, caso você vá diretamente e instale uma biblioteca direto no ambiente de produção, pode parar outras aplicações de funcionar.
+E porque isso é importante?
+Na aula foi usado o exemplo de que, você está em um ambiente de produção e precisa testar uma Biblioteca especifica do Python, porem, outros funções internas do sistema já utilizam algumas bibliotecas na versão em que estão, caso você vá diretamente e instale uma biblioteca direto no ambiente de produção, pode parar outras aplicações de funcionar.
 
 Para evitar isso, é possivel criar Ambientes Virtuais para baixar as bibliotecas do jeito que quisermos para realizar os testes.
 
