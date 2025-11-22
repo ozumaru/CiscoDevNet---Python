@@ -26,25 +26,15 @@ O Arquivo [hosts](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Do
 list_host = open("..\hosts")
 ```
 ---
-<!-- Iniciando Loop na lista de devices para que seja executado device por device.
-
-Parametros que vão abranger a parte inicial do Loop:
-list_host: Lista de Hosts para acesso
-commando: Lista de Comandos a ser enviados ao device, como trata-se de um backup: show running-config
-- OBS: O porque de estar sendo enviado uma LISTA, é porque outros scrips podem usar a mesma função de coleta e enviar mais de 1 comando, então já se é tratado como LISTA
-default.access_collect(host, device_info, commando): Com base na Instanciando a Classe **function_default**, invocando a Função **access_collect** e passando os parametrôs: host, device_info, commando
-lista_cisco: Quebrando o retorno do Running-config em uma Lista para posterior tratativa
-hostname: Usando Compreesão de Lista para localizar o hostname do device. -->
-
 Este trecho inicia um loop para percorrer cada device da lista e executar o procedimento de coleta individualmente.
 Abaixo, a função de cada parâmetro e etapa:
 
- - list_host → lista contendo todos os dispositivos que serão acessados.
- - commando → lista de comandos enviados ao device.
-    - Mesmo sendo apenas um comando nesse caso (show running-config), ele é enviado como lista porque a mesma função também é usada por outros scripts que podem precisar de vários comandos.
- - default.access_collect(host, device_info, commando) → utilizando a classe function_default, chamamos a função access_collect, responsável por acessar o dispositivo e executar os comandos.
- - lista_cisco → convertemos o retorno do running-config em lista, para facilitar buscas e processamento posterior.
- - hostname → usando compreensão de lista para localizar a linha que começa com hostname e extrair somente o valor do hostname do equipamento.
+ - **list_host**: lista contendo todos os dispositivos que serão acessados.
+ - **commando**: lista de comandos enviados ao device.
+    - Mesmo sendo apenas um comando nesse caso **(show running-config)**, ele é enviado como lista porque a mesma função também é usada por outros scripts que podem precisar de vários comandos.
+ - **default.access_collect(host, device_info, commando)**: utilizando a classe function_default, chamamos a função access_collect, responsável por acessar o dispositivo e executar os comandos.
+ - **lista_cisco**: convertemos o retorno do running-config em lista, para facilitar buscas e processamento posterior.
+ - **hostname**: usando compreensão de lista para localizar a linha que começa com hostname e extrair somente o valor do hostname do equipamento.
 
 ```Python
 # Loop para cada host na lista
@@ -61,6 +51,11 @@ for host in list_host:
     # Extraindo o hostname da coleta com compreensão de listas
     hostname = next(name.split()[1] for name in lista_cisco if name.startswith("hostname"))
 ```
+---
+O trecho abaixo cria o arquivo em formato **TXT**, utilizando o parametro "W" de Write, pois foi criado uma estratégia o arquivo não ser sobrescrito.
+Parametros utilizados:
+ - hostname: Contem o Hostname do Device
+ - now: Contem - Dia_Mes_Ano-Hora_Minuto
 
 ```Python
     # Criando o arquivo de coleta com o nome do hostname e data/hora
