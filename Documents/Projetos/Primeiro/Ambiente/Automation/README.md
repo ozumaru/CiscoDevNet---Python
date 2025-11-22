@@ -1,6 +1,6 @@
 <p align="center"><h1><p align="center">Fluxograma de funcionamento da Automação e suas Dependencias</p></h1></p>
 
-<p align="center"><h2><p align="center">Rotina de Backup</p></h2></p>
+# Rotina de Backup
 ```mermaid
 flowchart TD
     A[Main_Backup] --> B[Automation.Instance.function_default]
@@ -11,7 +11,7 @@ flowchart TD
     F --> G[Fim]
 ```
 ---
-<p align="center"><h2><p align="center">Relatório de Interfaces</p></h2></p>
+# Relatório de Interfaces
 ```mermaid
 flowchart TD
     A[Main_Interface] --> B[Automation.Instance.function_default]
@@ -21,9 +21,9 @@ flowchart TD
     E --> F[Cria JSON com informação de Interfaces]
     F --> G[Salva Arquivo CSV]
     G --> H[Fim]
-``` 
+```
 ---
-<p align="center"><h2><p align="center">Configuração de VLANs</p></h2></p> 
+# Configuração de VLANs
 ```mermaid
 flowchart TD
     A[Main_Vlan] --> B[Automation.Instance.function_default]
