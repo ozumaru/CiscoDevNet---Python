@@ -11,6 +11,9 @@ from Automation.Instance.credentials import device_info
 from datetime import datetime
 ```
 ---
+O seguinte trecho faz a invocação das funções da Classe **function_default** na função nomeada como **default** podendo utilizar todas as funções que existem dentro da classe.
+A variavel **NOW** ira armazenar a data do sistema para ter como parametrô na criação do nome do arquivo de backup, dessa forma não sendo sobrescrito e de fato criar uma rotina de backup.
+
 ```Python
 # Instanciando a classe
 default = function_default()
