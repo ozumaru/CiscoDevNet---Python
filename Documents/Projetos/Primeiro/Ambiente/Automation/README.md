@@ -1,12 +1,11 @@
 <p align="center"><h1><p align="center">Fluxograma de funcionamento da Automação e suas Dependencias</p></h1></p>
 
- - [Rotina de BACKUP](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/BACKUP/main_backup.md)
- - [Relatório de INTERFACE](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/INTERFACE/main_interface.md)
- - [Aplicação de Configuração - Criação de Vlans](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/VLAN/main_vlan.md)
- - [Instancias](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/instances.md)
-
-
-# [Rotina de BACKUP](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/BACKUP/main_backup.md)
+Abaixo um Fluxograma exemplificando o processo de cada automação do projeto, e todas estão buscando acessando [Instancias](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/instances.md) para realizar alguma ação, seja para:
+ - Acessar algum device e coletar comados
+ - Aplicar configuração
+ - Tratar informação de Status de Interfaces
+ 
+# Rotina de Backup - Link: [BACKUP](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/BACKUP/main_backup.md)
 ```mermaid
 flowchart TD
     A[Main_Backup] --> B[Automation.Instance.function_default]
@@ -17,7 +16,7 @@ flowchart TD
     F --> G[Fim]
 ```
 ---
-# Relatório de Interfaces
+# Relatório de Interfaces - Link: [INTERFACE](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/INTERFACE/main_interface.md)
 ```mermaid
 flowchart TD
     A[Main_Interface] --> B[Automation.Instance.function_default]
@@ -29,7 +28,7 @@ flowchart TD
     G --> H[Fim]
 ```
 ---
-# Configuração de VLANs
+# Configuração de VLANs - Link: [VLAN](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/VLAN/main_vlan.md)
 ```mermaid
 flowchart TD
     A[Main_Vlan] --> B[Automation.Instance.function_default]
