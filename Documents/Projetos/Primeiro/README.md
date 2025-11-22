@@ -33,12 +33,12 @@ E todas as farefas, fazem consulta de Intancias, nesse caso é uma Classe agrupa
 Link para Fluxograma para exemplificar o funcionamento de cada tarefa busca informação na Instancia.
  - [Fluxograma](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/README.md)
 
+Retornar para:
+- [Projetos](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos)
+- [Perfil Inicial](https://github.com/ozumaru)
+
+---
 Por favor, tenham curiosidade, e qualquer coisa, e fiquem a vontade em chamar no LinkedIn:   
 <div style="display: inline_block"><br>
   <a href="https://www.linkedin.com/in/jose-osmar-caitano/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>  
 </div>
-
----
-Retornar para:
-- [Projetos](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos)
-- [Perfil Inicial](https://github.com/ozumaru)
