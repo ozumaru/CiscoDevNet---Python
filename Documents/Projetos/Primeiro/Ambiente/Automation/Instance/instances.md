@@ -34,7 +34,7 @@ Inicio da Classe:
 class function_default():
 ```
 ---
-Parâmetros da Função: **"access_collect"**
+Parâmetros da Função: **"ACCESS_COLLECT"**
 
 **host**: Endereço de acesso do Device
 \
@@ -81,7 +81,7 @@ OBS: A forma a baixo de se **"Desempacotar"** só é possivel realizar no tipo T
         return result
 ```
 ---
-Parâmetros da Função: **"send_config_default"**
+Parâmetros da Função: **"SEND_CONFIG_DEFAULT"**
 
 **host**: Endereço de acesso do Device
 \
@@ -89,7 +89,7 @@ Parâmetros da Função: **"send_config_default"**
 \
 **commando**: Lista de Comandos a serem enviados ao device para coleta
 
-OBS: A forma a baixo de se "Desempacotar" só é possivel realizar no tipo Tupla, não é possivel fazer o mesmo com Lista
+OBS: A forma a baixo de se **"Desempacotar"** só é possivel realizar no tipo Tupla, não é possivel fazer o mesmo com Lista
 
 ```Python
     # Função de Envio de Configuração
@@ -117,7 +117,7 @@ OBS: A forma a baixo de se "Desempacotar" só é possivel realizar no tipo Tupla
         # Entrando no modo enable
         ssh.enable()
 
-        # Enviando comandos de configuração
+        # Enviando comandos de configuração com quebra de linha para que o proximo comando não fique na minha linha quando retornar o output
         result = f"{ssh.send_config_set(commando, read_timeout=120)}\n" 
 
         # Encerrando a conexão SSH
@@ -127,9 +127,9 @@ OBS: A forma a baixo de se "Desempacotar" só é possivel realizar no tipo Tupla
         return result
 ```
 ---
-Parâmetros da Função: **"get_interface_function"**
+Parâmetros da Função: **"GET_INTERFACE_FUNCTION"**
 
-**get_interface**: Dicionario Vazio para armazenar informação que será tratado durante ação da Função.
+**get_interface**: Dicionario Vazio para armazenar informação que será tratado durante ação da função, e retornado no final da função.
 \
 **interface**: Output do comando - show ip interface brief
 
