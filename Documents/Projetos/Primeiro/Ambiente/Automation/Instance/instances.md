@@ -8,6 +8,25 @@
 from netmiko import ConnectHandler
 ```
 
+Aqui trata-se de um Agrupamento de Funções, e para isso utilizamos a **Classe** para realizar esse agrupamento
+\
+Conforme abaixo fora criado a classe **function_default** que todos os demais scripts desse projeto iram importar para realizar determinadas funções.
+\
+Dentro dessa Classe, temos a principio 3 Funções
+ - **access_collect**: Função inicial que vai Acessar o Device e vai enviar uma Lista de comando, pode ser 1 ou mais comandos
+ - **send_config_default**: Função que ira enviar para o device um conjunto de Configuração para ser aplicados, no caso do Cisco como exemplo da tarefa, em modo **configure terminal**
+ - **get_interface_function**: Função ira tratar a coleta de interfaces, retornando no final um JSON contendo o padrão:
+```Json
+    {
+        "Nome_da_Interface": {
+            "Endereço_IP": "Retorno do IP",
+            "status": "UP/ DOWN/ ADMIN DOWN",
+            "protocol": "UP/DOWN"
+        }
+    }
+```
+
+
 ```Python
 # Funções Padrões de Acesso e Coleta instanciadas em outros scripts
 class function_default():
