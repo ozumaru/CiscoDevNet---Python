@@ -9,7 +9,8 @@ flowchart TD
     D --> E[Localiza Hostname]
     E --> F[Salva Arquivo de Bakcup]
     F --> G[Fim]
-``` 
+```
+---
 <p align="center"><h2><p align="center">Relatório de Interfaces</p></h2></p>
 ```mermaid
 flowchart TD
@@ -21,6 +22,7 @@ flowchart TD
     F --> G[Salva Arquivo CSV]
     G --> H[Fim]
 ``` 
+---
 <p align="center"><h2><p align="center">Configuração de VLANs</p></h2></p> 
 ```mermaid
 flowchart TD
