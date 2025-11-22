@@ -2,7 +2,7 @@
   <h1><p align="center">Rotina de Backup</p></h1>
 </p>
 
-Abaixo iniciamos importa a instancia criada para algoritimos repetitivos, conforme no arquivo [instances](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/instances.md), abaixo está a forma de se invocar a classe **function_default**, e está nesse formato pois **Automation.Instance.** é o Caminho do diretorio onde essa classe se encontra, juntamente sendo invocando também informações de [credentials](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/credentials.py) de acesso em formato de Tupla.
+Abaixo importamos a instancia criada para algoritimos repetitivos, conforme no arquivo [instances](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/instances.md), abaixo está a forma de se invocar a classe **function_default**, e está nesse formato pois **Automation.Instance.** é o Caminho do diretorio onde essa classe se encontra, juntamente sendo invocando também informações de [credentials](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/credentials.py) de acesso em formato de Tupla.
 
 Também importando a biblioteca **datetime** para se criar uma parametro de tempo ao criar o arquivo de backup.
 ```Python
@@ -66,3 +66,8 @@ Parametros utilizados:
         arq.write(cisco)
         arq.close()
 ```
+
+Links essenciais:
+Script Limpo: [main_backup](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/main_backup.py)
+Inicio do Projeto: [Inicio](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
+Video de Exeplicação: ⚠️ !!! EM PRODUÇÃO !!! ⚙️

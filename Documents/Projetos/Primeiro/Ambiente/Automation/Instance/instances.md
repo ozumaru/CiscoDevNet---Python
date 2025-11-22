@@ -147,7 +147,7 @@ OBS: Como se trata de um retorno de um comando Especifico, então é uma funçã
         if len(list_int) == 7:
             get_interface[list_int[0]] = {
                 "address": list_int[1],
-                "status": f"{list_int[-3]}_{list_int[-2]}",
+                "status": f"{list_int[-3]}_{list_int[-2]}", # Validando na lista a informação de Status administratively + down nas posições da Lista
                 "protocol": list_int[-1]
                 } 
         
@@ -156,10 +156,15 @@ OBS: Como se trata de um retorno de um comando Especifico, então é uma funçã
         elif len(list_int) == 6:
             get_interface[list_int[0]] = {
                 "address": list_int[1],
-                "status": list_int[-2],
+                "status": list_int[-2], # Validando na lista a informação de Status up/ down nas posições da Lista
                 "protocol": list_int[-1]
                 }
         
         # Retornando o dicionário atualizado
         return get_interface
 ```
+
+Links essenciais:
+Script Limpo: [instances](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/instances.py)
+Inicio do Projeto: [Inicio](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
+Video de Exeplicação: ⚠️ !!! EM PRODUÇÃO !!! ⚙️
