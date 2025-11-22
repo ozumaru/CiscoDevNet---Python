@@ -11,8 +11,11 @@ from Automation.Instance.credentials import device_info
 from datetime import datetime
 ```
 ---
-O seguinte trecho faz a invocação das funções da Classe **function_default** na função nomeada como **default** podendo utilizar todas as funções que existem dentro da classe.
-A variavel **NOW** ira armazenar a data do sistema para ter como parametrô na criação do nome do arquivo de backup, dessa forma não sendo sobrescrito e de fato criar uma rotina de backup.
+- **default**: O seguinte trecho faz a invocação das funções da Classe **function_default** na função nomeada como **default** podendo utilizar todas as funções que existem dentro da classe.
+
+- **now**: A variavel **NOW** ira armazenar a data do sistema para ter como parametrô na criação do nome do arquivo de backup, dessa forma não sendo sobrescrito e de fato criar uma rotina de backup.
+
+- **Hosts**: O Arquivo [hosts](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/hosts) possui a lista de acesso aos devices, no caso de um ambiente com multiplos devices, é nesse arquivo que será armazenado os endereço de acesso, sempre linha por linha.
 
 ```Python
 # Instanciando a classe
@@ -20,11 +23,7 @@ default = function_default()
 
 # Coletando data e hora para nome do arquivo
 now = datetime.today().strftime('%d-%m-%Y_%Hh%Mm')
-```
----
-O Arquivo [hosts](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/hosts) possui a lista de acesso aos devices, no caso de um ambiente com multiplos devices, é nesse arquivo que será armazenado os endereço de acesso, sempre linha por linha.
 
-```Python
 # Abrindo o arquivo com a lista de hosts
 list_host = open("..\hosts")
 ```
@@ -68,6 +67,9 @@ Parametros utilizados:
 ```
 
 Links essenciais:
+\
 Script Limpo: [main_backup](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/main_backup.py)
+\
 Inicio do Projeto: [Inicio](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
+\
 Video de Exeplicação: ⚠️ !!! EM PRODUÇÃO !!! ⚙️
