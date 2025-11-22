@@ -68,7 +68,7 @@ Parametros utilizados:
 
 Links essenciais:
 \
-Script Limpo: [main_backup](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/main_backup.py)
+Script Limpo: [main_backup](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/BACKUP/main_backup.py)
 \
 Inicio do Projeto: [Inicio](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
 \
