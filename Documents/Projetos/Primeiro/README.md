@@ -23,12 +23,12 @@ Eu sei que é bonito ver um codigo Gigantesco cheio de linha que nós construimo
 E a Refatoração entra justamente nisso, para simplificar o codigo, e que ele seja Reutilizavel em outras etapas do Programa.
 
 Sigamos para a Tarefa:
- - [Rotina de BACKUP](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/BACKUP)
- - [Relatório de INTERFACE](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/INTERFACE)
- - [Aplicação de Configuração - Criação de Vlans](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/VLAN)
+ - [Rotina de BACKUP](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/BACKUP/main_backup.md)
+ - [Relatório de INTERFACE](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/INTERFACE/main_interface.md)
+ - [Aplicação de Configuração - Criação de Vlans](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/VLAN/main_vlan.md)
 
 E todas as farefas, fazem consulta de Intancias, nesse caso é uma Classe agrupa Funções.
- - [Instancias](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance)
+ - [Instancias](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/instances.md)
 
 Por favor, tenham curiosidade, e qualquer coisa, e fiquem a vontade em chamar no LinkedIn:   
 <div style="display: inline_block"><br>
