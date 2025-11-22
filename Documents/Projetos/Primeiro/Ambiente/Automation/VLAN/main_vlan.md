@@ -90,3 +90,10 @@ for host in list_host:
     # Adicionando print para informar criação do arquivo
     print(f"Criado coleta Final: {hostname}_{now}_depois.txt")
 ```
+Links essenciais:
+\
+Script Limpo: [main_vlan](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/main_vlan.py)
+\
+Inicio do Projeto: [Inicio](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
+\
+Video de Exeplicação: ⚠️ !!! EM PRODUÇÃO !!! ⚙️

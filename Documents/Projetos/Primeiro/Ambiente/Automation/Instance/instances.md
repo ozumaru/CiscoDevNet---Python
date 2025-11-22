@@ -165,6 +165,9 @@ OBS: Como se trata de um retorno de um comando Especifico, então é uma funçã
 ```
 
 Links essenciais:
+\
 Script Limpo: [instances](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/instances.py)
+\
 Inicio do Projeto: [Inicio](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
+\
 Video de Exeplicação: ⚠️ !!! EM PRODUÇÃO !!! ⚙️
