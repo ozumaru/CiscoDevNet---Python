@@ -37,6 +37,7 @@ Abaixo, a função de cada parâmetro e etapa:
  - **default.access_collect(host, device_info, commando)**: utilizando a classe function_default, chamamos a função access_collect, responsável por acessar o dispositivo e executar os comandos.
  - **lista_cisco**: convertemos o retorno do running-config em lista, para facilitar buscas e processamento posterior.
  - **hostname**: usando compreensão de lista para localizar a linha que começa com hostname e extrair somente o valor do hostname do equipamento.
+ - **try**: é exatamente o que a própria palavra diz: Tentar, pois caso de algum erro, ele vai para Except.
 
 ```Python
 # Loop para cada host na lista
@@ -44,14 +45,15 @@ for host in list_host:
     # Definindo lista de comando
     commando = ["show running-config"]
 
-    # Realizando a coleta do running-config
-    cisco = default.access_collect(host, device_info, commando) 
-    
-    # convertendo a coleta em uma lista
-    lista_cisco = cisco.split("\n")
-    
-    # Extraindo o hostname da coleta com compreensão de listas
-    hostname = next(name.split()[1] for name in lista_cisco if name.startswith("hostname"))
+    try: 
+      # Realizando a coleta do running-config
+      cisco = default.access_collect(host, device_info, commando) 
+      
+      # convertendo a coleta em uma lista
+      lista_cisco = cisco.split("\n")
+      
+      # Extraindo o hostname da coleta com compreensão de listas
+      hostname = next(name.split()[1] for name in lista_cisco if name.startswith("hostname"))
 ```
 ---
 O trecho abaixo cria o arquivo em formato **TXT**, utilizando o parametro "W" de Write, pois foi criado uma estratégia o arquivo não ser sobrescrito.
@@ -60,10 +62,20 @@ Parametros utilizados:
  - now: Contem - Dia_Mes_Ano-Hora_Minuto
 
 ```Python
-    # Criando o arquivo de coleta com o nome do hostname e data/hora
-    with open(f'Data\{hostname}_{now}.txt', 'w') as arq:
-        arq.write(cisco)
-        arq.close()
+      # Criando o arquivo de coleta com o nome do hostname e data/hora
+      with open(f'Data\{hostname}_{now}.txt', 'w') as arq:
+          arq.write(cisco)
+          arq.close()
+```
+O Except serve para caso o trecho de acesso ao device por algum motivo: 
+  - O Device não está acessivel
+  - Usuario e senha Errado
+
+Vai retornar qual foi o erro, pois tratar o erro dessa forma é uma forma mais Limpa, e não trava o programa, e assim se tiver outros devices o script segue normal.
+
+```Python
+    except Exception as e:
+        print(f"Não foi possível conectar ao host {host.strip()}. Erro: {e}")
 ```
 
 Links essenciais:

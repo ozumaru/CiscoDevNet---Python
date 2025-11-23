@@ -24,32 +24,36 @@ list_host = open("..\hosts")
 for host in list_host:
     hostname = ""
 
-    backup_antes = default.access_collect(host, device_info, commando=["show running-config"])
-    
-    hostname = next(name.split()[1] for name in backup_antes.split("\n") if name.startswith("hostname"))
+    try:
+        backup_antes = default.access_collect(host, device_info, commando=["show running-config"])
+        
+        hostname = next(name.split()[1] for name in backup_antes.split("\n") if name.startswith("hostname"))
 
-    with open(f'Data\{hostname}_{now}_antes.txt', 'w') as arq:
-        arq.write(backup_antes)
-        arq.close()
+        with open(f'Data\{hostname}_{now}_antes.txt', 'w') as arq:
+            arq.write(backup_antes)
+            arq.close()
 
-    print(f"Criado coleta Inicial: {hostname}_{now}_antes.txt")
+        print(f"Criado coleta Inicial: {hostname}_{now}_antes.txt")
 
-    commando = []
-    for x, name in zip(range(5, 55, 5), name_vlan):
-        commando.extend([
-            f"vlan {x}",
-            f"name {name}",
-            "!"
-        ])
-    
-    cisco = default.send_config_default(host, device_info, commando)
+        commando = []
+        for x, name in zip(range(5, 55, 5), name_vlan):
+            commando.extend([
+                f"vlan {x}",
+                f"name {name}",
+                "!"
+            ])
+        
+        cisco = default.send_config_default(host, device_info, commando)
 
-    print(f"Aplicado a configuação da lista de Vlans: {list(zip(range(5, 55, 5), name_vlan))} ")
+        print(f"Aplicado a configuação da lista de Vlans: {list(zip(range(5, 55, 5), name_vlan))} ")
 
-    backup_depois = default.access_collect(host, device_info, commando=["show running-config"])
+        backup_depois = default.access_collect(host, device_info, commando=["show running-config"])
 
-    with open(f'Data\{hostname}_{now}_depois.txt', 'w') as arq:
-        arq.write(backup_depois)
-        arq.close()
+        with open(f'Data\{hostname}_{now}_depois.txt', 'w') as arq:
+            arq.write(backup_depois)
+            arq.close()
 
-    print(f"Criado coleta Final: {hostname}_{now}_depois.txt")
+        print(f"Criado coleta Final: {hostname}_{now}_depois.txt")
+                        
+    except Exception as e:
+        print(f"Não foi possível conectar ao host {host.strip()}. Erro: {e}")
