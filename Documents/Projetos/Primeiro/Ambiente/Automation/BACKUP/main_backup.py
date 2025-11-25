@@ -23,3 +23,4 @@ for host in list_host:
             
     except Exception as e:
         print(f"Não foi possível conectar ao host {host.strip()}. Erro: {e}")
+        
