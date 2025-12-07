@@ -84,7 +84,4 @@ Script Limpo: [main_backup](https://github.com/ozumaru/CiscoDevNet---Python/blob
 \
 Inicio do Projeto: [Inicio](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
 \
-Video de Exeplicação: 
- - [Parte 1](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
- - [Parte 2](⚠️ !!! EM PRODUÇÃO !!! ⚙️)
- - [Parte 3](⚠️ !!! EM PRODUÇÃO !!! ⚙️)
+Video de Exeplicação: [Parte 1](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro) \ [Parte 2](⚠️ !!! EM PRODUÇÃO !!! ⚙️) \ [Parte 3](⚠️ !!! EM PRODUÇÃO !!! ⚙️)
