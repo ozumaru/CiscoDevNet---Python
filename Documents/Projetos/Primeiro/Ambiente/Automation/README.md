@@ -6,6 +6,7 @@ Abaixo um Fluxograma exemplificando o processo de cada automação do projeto, e
  - Tratar informação de Status de Interfaces
  
 # Rotina de Backup - Link: [BACKUP](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/BACKUP/main_backup.md)
+ - Videos: [Parte 1](https://www.youtube.com/watch?v=vY-c34QwUiY) \ [Parte 2](https://www.youtube.com/watch?v=KFq3nfDjUY8) \ [Parte 3](https://www.youtube.com/watch?v=Gvr0oQE7o6M)
 ```mermaid
 flowchart TD
     A[Main_Backup] --> B[Automation.Instance.function_default]

@@ -23,9 +23,9 @@ Eu sei que é bonito ver um codigo Gigantesco cheio de linha que nós construimo
 E a Refatoração entra justamente nisso, para simplificar o codigo, e que ele seja Reutilizavel em outras etapas do Programa.
 
 Sigamos para a Tarefa:
- - [Rotina de BACKUP](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/BACKUP/main_backup.md)
- - [Relatório de INTERFACE](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/INTERFACE/main_interface.md)
- - [Aplicação de Configuração - Criação de Vlans](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/VLAN/main_vlan.md)
+ - [Rotina de BACKUP](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/BACKUP/main_backup.md) - Videos: [Parte 1](https://www.youtube.com/watch?v=vY-c34QwUiY) \ [Parte 2](https://www.youtube.com/watch?v=KFq3nfDjUY8) \ [Parte 3](https://www.youtube.com/watch?v=Gvr0oQE7o6M)
+ - [Relatório de INTERFACE](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/INTERFACE/main_interface.md) - Videos: !!! ⚠️ EM PRODUÇÂO 🎥 !!!
+ - [Aplicação de Configuração - Criação de Vlans](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/VLAN/main_vlan.md) - Videos: !!! ⚠️EM PRODUÇÂO 🎥 !!!
 
 E todas as farefas, fazem consulta de Intancias, nesse caso é uma Classe agrupa Funções.
  - [Instancias](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/Instance/instances.md)
