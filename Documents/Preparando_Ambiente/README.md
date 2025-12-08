@@ -2,6 +2,9 @@
   <h2><p align="center">PREPARANDO O AMBIENTE</p></h2>
 </p>
 
+## 📽️ Passo a Passo de como Preparar o Lab
+- [Preparando o Laboratório](https://www.youtube.com/watch?v=zGtLigpTqoo)
+
 O Ambiente que vamos preparar é o Cisco Sandbox, uma iniciativa da Cisco para Incentivar pessoas a aprender mais sobre Programabilidade de Infraestrutura, e utilizar ambientes de teste de forma Gratuita (Até o momento de 11/2025).
 
 Para que você consiga acessar o ambiente, você precisa primeiro fazer um cadastro na pagina, e da para se utilizar apenas do Acesso do Google mesmo, é bem simples.
