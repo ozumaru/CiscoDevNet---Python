@@ -18,6 +18,7 @@ flowchart TD
 ```
 ---
 # Relatório de Interfaces - Link: [INTERFACE](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/INTERFACE/main_interface.md)
+ - Videos: [Parte 1](https://youtu.be/NHoNt21UnJs) \ [Parte 2](https://youtu.be/d-3HldELBnM) \ [Parte 3](https://www.youtube.com/watch?v=Hl1G6pDfuDA) \ [Parte 4](https://youtu.be/kl-Lj_iU0VY)
 ```mermaid
 flowchart TD
     A[Main_Interface] --> B[Automation.Instance.function_default]
