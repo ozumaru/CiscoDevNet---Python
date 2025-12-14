@@ -215,4 +215,4 @@ Script Limpo: [main_interface](https://github.com/ozumaru/CiscoDevNet---Python/b
 \
 Inicio do Projeto: [Inicio](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
 \
-Video de Exeplicação: [Parte 1](https://youtu.be/NHoNt21UnJs) \ [Parte 2](https://youtu.be/d-3HldELBnM) \ [Parte 3](https://www.youtube.com/watch?v=Hl1G6pDfuDA) \ [Parte 4](https://youtu.be/kl-Lj_iU0VY)
+Video de Exeplicação: [Parte 1](https://www.youtube.com/watch?v=NHoNt21UnJs) \ [Parte 2](https://www.youtube.com/watch?v=d-3HldELBnM) \ [Parte 3](https://www.youtube.com/watch?v=Hl1G6pDfuDA) \ [Parte 4](https://www.youtube.com/watch?v=kl-Lj_iU0VY)
