@@ -31,6 +31,7 @@ flowchart TD
 ```
 ---
 # Configuração de VLANs - Link: [VLAN](https://github.com/ozumaru/CiscoDevNet---Python/tree/master/Documents/Projetos/Primeiro/Ambiente/Automation/VLAN/main_vlan.md)
+ - Videos: [Parte 1](https://www.youtube.com/watch?v=Z25g_VgkBmo) \ [Parte 2](https://www.youtube.com/watch?v=MYn6AGJHY64) \ [Parte 3](https://www.youtube.com/watch?v=5Zb4kv8hWj0)
 ```mermaid
 flowchart TD
     A[Main_Vlan] --> B[Automation.Instance.function_default]

@@ -108,4 +108,4 @@ Script Limpo: [main_vlan](https://github.com/ozumaru/CiscoDevNet---Python/blob/m
 \
 Inicio do Projeto: [Inicio](https://github.com/ozumaru/CiscoDevNet---Python/blob/master/Documents/Projetos/Primeiro)
 \
-Video de Exeplicação: ⚠️ !!! EM PRODUÇÃO !!! ⚙️
+Video de Exeplicação: [Parte 1](https://www.youtube.com/watch?v=Z25g_VgkBmo) \ [Parte 2](https://www.youtube.com/watch?v=MYn6AGJHY64) \ [Parte 3](https://www.youtube.com/watch?v=5Zb4kv8hWj0)
